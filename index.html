@@ -14,8 +14,6 @@ body{font-family:'Roboto',Arial,sans-serif;color:var(--g8);background:var(--w);l
 a{text-decoration:none;color:inherit;cursor:pointer}
 img{max-width:100%;display:block}
 .ctn{max-width:1200px;margin:0 auto;padding:0 20px}
-
-/* NAV */
 .nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:var(--w);border-bottom:1px solid var(--g2);transition:var(--tr)}
 .nav.scrolled{box-shadow:var(--sh)}
 .nav .ctn{display:flex;align-items:center;justify-content:space-between;height:68px}
@@ -38,8 +36,6 @@ img{max-width:100%;display:block}
 .mm a:hover,.mm a.act{color:var(--pri)}
 .mms{padding-left:18px}
 .mms a{font-size:.85rem;color:var(--g6)}
-
-/* HERO */
 .hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;background:linear-gradient(135deg,var(--pri-d),var(--pri),var(--pri-l))}
 .hero-bg{position:absolute;inset:0}.hero-bg img{width:100%;height:100%;object-fit:cover;opacity:.12}
 .hero-ov{position:absolute;inset:0;background:linear-gradient(135deg,rgba(74,35,90,.92),rgba(91,44,111,.7),rgba(125,60,152,.55))}
@@ -50,16 +46,12 @@ img{max-width:100%;display:block}
 .hero .sub{font-size:1.2rem;font-weight:300;color:rgba(255,255,255,.85);margin-bottom:10px}
 .hero .vrse{font-style:italic;color:rgba(255,255,255,.65);font-size:.92rem;margin-bottom:32px}
 .hbtns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
-
-/* BTNS */
 .btn{display:inline-flex;align-items:center;gap:8px;padding:11px 26px;border-radius:50px;font-size:.88rem;font-weight:600;cursor:pointer;border:none;transition:var(--tr);text-transform:uppercase;letter-spacing:.5px}
 .btn-p{background:var(--gold);color:var(--pri-d)}.btn-p:hover{background:var(--gold-l);transform:translateY(-2px);box-shadow:0 6px 20px rgba(201,168,76,.4)}
 .btn-o{background:transparent;color:var(--w);border:2px solid rgba(255,255,255,.4)}.btn-o:hover{border-color:var(--w);background:rgba(255,255,255,.1);transform:translateY(-2px)}
 .btn-pr{background:var(--pri);color:var(--w)}.btn-pr:hover{background:var(--pri-l);transform:translateY(-2px);box-shadow:0 6px 20px rgba(91,44,111,.3)}
 .btn-sm{padding:7px 18px;font-size:.78rem}
 .btn-bl{width:100%;justify-content:center}
-
-/* SECTIONS */
 .sec{padding:70px 0}.sec-a{background:var(--ow)}.sec-p{background:linear-gradient(135deg,var(--pri-d),var(--pri));color:var(--w)}
 .shdr{text-align:center;margin-bottom:44px}
 .shdr h2{font-size:2rem;font-weight:900;color:var(--pri);margin-bottom:10px;letter-spacing:-.5px}
@@ -67,8 +59,6 @@ img{max-width:100%;display:block}
 .shdr p{color:var(--g6);max-width:560px;margin:0 auto;font-size:1rem}
 .sec-p .shdr p{color:rgba(255,255,255,.65)}
 .shdr .gl{width:50px;height:3px;background:var(--gold);margin:14px auto;border-radius:2px}
-
-/* CARDS */
 .card{background:var(--w);border-radius:var(--rl);overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.07);border:1px solid var(--g2);transition:var(--tr)}
 .card:hover{transform:translateY(-5px);box-shadow:var(--shl);border-color:var(--pri)}
 .cimg{height:190px;overflow:hidden;position:relative}
@@ -83,32 +73,23 @@ img{max-width:100%;display:block}
 .cl img{width:34px;height:34px;border-radius:50%;object-fit:cover;border:2px solid var(--gold)}
 .cli small{display:block;font-size:.68rem;color:var(--g5)}
 .cli span{font-size:.82rem;font-weight:600;color:var(--g8)}
-
 .g2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
 .g3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .g4{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
-
-/* BREADCRUMB */
 .bc{padding:86px 0 26px;background:linear-gradient(135deg,var(--pri-d),var(--pri));color:var(--w)}
 .bc h1{font-size:1.9rem;font-weight:900;margin-bottom:6px}
 .bcl{display:flex;gap:6px;align-items:center;font-size:.82rem;color:rgba(255,255,255,.55);flex-wrap:wrap}
 .bcl a{color:rgba(255,255,255,.65);transition:var(--tr)}.bcl a:hover{color:var(--gold)}
 .bcl .sp{color:rgba(255,255,255,.3)}
-
-/* LEADER */
 .lp{display:flex;align-items:center;gap:16px;padding:16px;background:var(--ow);border-radius:var(--rl);margin-bottom:10px}
 .lp img{width:56px;height:56px;border-radius:50%;object-fit:cover;border:3px solid var(--gold);flex-shrink:0}
 .lpi h4{font-size:.95rem;font-weight:700;color:var(--g8)}
 .lpi .rl{font-size:.76rem;color:var(--pri);font-weight:600;text-transform:uppercase;letter-spacing:.5px}
 .lg{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
-
-/* STATS */
 .sbar{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:var(--w);border-radius:var(--rl);box-shadow:var(--sh);overflow:hidden;margin:-36px auto 50px;position:relative;z-index:3;max-width:860px}
 .si{text-align:center;padding:24px 14px;border-right:1px solid var(--g1)}.si:last-child{border-right:none}
 .si .n{font-size:1.8rem;font-weight:900;color:var(--pri)}
 .si .l{font-size:.72rem;color:var(--g5);text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
-
-/* FORMS */
 .fg{margin-bottom:18px}
 .fg label{display:block;font-size:.83rem;font-weight:600;color:var(--g7);margin-bottom:5px}
 .fg input,.fg textarea,.fg select{width:100%;padding:11px 14px;border:1px solid var(--g3);border-radius:var(--r);font-size:.88rem;font-family:inherit;transition:var(--tr);background:var(--w)}
@@ -117,8 +98,6 @@ img{max-width:100%;display:block}
 .fr{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .fsuc{background:#d4edda;color:#155724;padding:14px;border-radius:var(--r);margin-top:14px;display:none;font-size:.88rem}
 .fsuc.show{display:block;animation:fu .4s ease}
-
-/* ADMIN */
 .al{display:grid;grid-template-columns:220px 1fr;min-height:calc(100vh - 68px)}
 .asb{background:var(--g9);color:var(--w);padding:20px 0}
 .asb h3{padding:0 16px 14px;font-size:.75rem;text-transform:uppercase;letter-spacing:1px;color:var(--g5);border-bottom:1px solid rgba(255,255,255,.1)}
@@ -152,8 +131,6 @@ tr:hover td{background:rgba(91,44,111,.02)}
 .alg{max-width:380px;margin:70px auto;padding:36px;background:var(--w);border-radius:16px;box-shadow:var(--shl)}
 .alg h2{text-align:center;margin-bottom:6px;color:var(--pri)}
 .alg p{text-align:center;color:var(--g5);font-size:.88rem;margin-bottom:22px}
-
-/* FOOTER */
 .ft{background:var(--g9);color:rgba(255,255,255,.55);padding:50px 0 0}
 .fg2{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:36px;margin-bottom:36px}
 .ft h4{color:var(--w);font-size:.95rem;margin-bottom:14px;position:relative;padding-bottom:9px}
@@ -165,51 +142,31 @@ tr:hover td{background:rgba(91,44,111,.02)}
 .fsoc{display:flex;gap:10px}
 .fsoc a{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;transition:var(--tr);font-size:.85rem}
 .fsoc a:hover{background:var(--gold);color:var(--g9)}
-
-/* FEATURE */
 .fc{text-align:center;padding:28px 20px;border-radius:var(--rl);background:var(--w);border:1px solid var(--g2);transition:var(--tr)}
 .fc:hover{transform:translateY(-4px);box-shadow:var(--sh);border-color:var(--pri)}
 .fci{width:56px;height:56px;margin:0 auto 14px;border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:1.3rem;background:rgba(91,44,111,.08);color:var(--pri);transition:var(--tr)}
 .fc:hover .fci{background:var(--pri);color:var(--gold)}
 .fc h3{font-size:1rem;font-weight:700;color:var(--g8);margin-bottom:6px}
 .fc p{font-size:.85rem;color:var(--g6)}
-
-/* BISHOP */
 .bic{display:flex;gap:28px;align-items:flex-start;background:var(--w);border-radius:16px;overflow:hidden;box-shadow:var(--sh);border:1px solid var(--g2)}
 .bic img{width:260px;height:340px;object-fit:cover;flex-shrink:0}
 .bicb{padding:28px 28px 28px 0}
 .bicb h3{font-size:1.4rem;font-weight:900;color:var(--pri);margin-bottom:3px}
 .bicb .ttl{color:var(--gold-d);font-weight:600;margin-bottom:14px;font-size:.92rem}
 .bicb p{font-size:.9rem;color:var(--g6);line-height:1.65}
-
-/* TOAST */
 .tst{position:fixed;bottom:24px;right:24px;background:var(--pri);color:var(--w);padding:14px 22px;border-radius:var(--r);box-shadow:0 12px 40px rgba(0,0,0,.2);z-index:9999;transform:translateY(100px);opacity:0;transition:var(--tr);font-size:.88rem;max-width:340px}
 .tst.show{transform:translateY(0);opacity:1}
 .tst.ok{background:#27ae60}
-
-/* ANIM */
 @keyframes fu{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
 @keyframes fi{from{opacity:0}to{opacity:1}}
 .fu{opacity:0;transform:translateY(18px);transition:all .5s ease}.fu.vis{opacity:1;transform:translateY(0)}
 .s1{transition-delay:.1s}.s2{transition-delay:.2s}.s3{transition-delay:.3s}.s4{transition-delay:.4s}.s5{transition-delay:.5s}.s6{transition-delay:.6s}
-
-/* DETAIL */
 .dh{position:relative;padding:86px 0 50px;background:linear-gradient(135deg,var(--pri-d),var(--pri));color:var(--w);overflow:hidden}
 .dh::before{content:'';position:absolute;inset:0;opacity:.08;background:url('https://picsum.photos/seed/altar-gold/1600/500') center/cover}
 .dh .ctn{position:relative;z-index:2}
 .dh h1{font-size:2.1rem;font-weight:900;margin-bottom:6px}
 .dh .thm{font-size:1rem;color:var(--gold);font-weight:500;margin-bottom:6px}
 .dh .vrs{font-style:italic;color:rgba(255,255,255,.65);max-width:550px;font-size:.9rem}
-.dc{padding:50px 0}
-
-/* TABS */
-.tabs{display:flex;gap:2px;margin-bottom:20px;border-bottom:2px solid var(--g2);padding-bottom:0;flex-wrap:wrap}
-.tbtn{padding:9px 18px;border:none;background:none;font-size:.88rem;font-weight:600;color:var(--g5);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-2px;transition:var(--tr)}
-.tbtn:hover{color:var(--pri)}
-.tbtn.act{color:var(--pri);border-bottom-color:var(--pri)}
-.tc{display:none;animation:fi .3s ease}.tc.act{display:block}
-
-/* RESPONSIVE */
 @media(max-width:1024px){.g4{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(2,1fr)}.fg2{grid-template-columns:repeat(2,1fr)}.al{grid-template-columns:1fr}.asb{display:none}.sbar{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:768px){.nlinks{display:none}.hb{display:flex}.hero h1{font-size:2rem}.g2,.g3,.g4{grid-template-columns:1fr}.fg2{grid-template-columns:1fr}.sec{padding:46px 0}.shdr h2{font-size:1.6rem}.bic{flex-direction:column}.bic img{width:100%;height:220px}.bicb{padding:20px}.fr{grid-template-columns:1fr}.sbar{grid-template-columns:1fr 1fr}.asg{grid-template-columns:1fr}.dh h1{font-size:1.6rem}.bc h1{font-size:1.3rem}}
 @media(max-width:480px){.hero h1{font-size:1.6rem}.sbar{grid-template-columns:1fr}.hbtns{flex-direction:column;align-items:center}}
@@ -219,7 +176,6 @@ tr:hover td{background:rgba(91,44,111,.02)}
 </style>
 </head>
 <body>
-
 <nav class="nav" id="navbar">
 <div class="ctn">
 <a class="nlogo" onclick="nav('/')">
@@ -240,7 +196,6 @@ tr:hover td{background:rgba(91,44,111,.02)}
 <button class="hb" id="hb" onclick="togMM()"><span></span><span></span><span></span></button>
 </div>
 </nav>
-
 <div class="mm" id="mm">
 <a onclick="nav('/');clMM()">Home</a>
 <a onclick="nav('/about');clMM()">About Us</a>
@@ -250,63 +205,32 @@ tr:hover td{background:rgba(91,44,111,.02)}
 <a onclick="nav('/donate');clMM()">Donate</a>
 <a onclick="nav('/admin');clMM()">Admin Panel</a>
 </div>
-
 <main id="app"></main>
-
 <footer class="ft">
 <div class="ctn">
 <div class="fg2">
-<div>
-<h4>Akot Diocese</h4>
-<p>The Episcopal Church of South Sudan – Akot Diocese is committed to spreading the Gospel, serving communities, and building a strong foundation of faith across the region.</p>
-<p><i class="fas fa-map-marker-alt"></i> Akot, Lakes State, South Sudan</p>
+<div><h4>Akot Diocese</h4><p>The Episcopal Church of South Sudan – Akot Diocese is committed to spreading the Gospel, serving communities, and building a strong foundation of faith across the region.</p><p><i class="fas fa-map-marker-alt"></i> Akot, Lakes State, South Sudan</p></div>
+<div><h4>Quick Links</h4><ul><li><a onclick="nav('/')">Home</a></li><li><a onclick="nav('/about')">About Us</a></li><li><a onclick="nav('/archdeaconries')">Archdeaconries</a></li><li><a onclick="nav('/contact')">Contact</a></li><li><a onclick="nav('/donate')">Donate</a></li></ul></div>
+<div><h4>Leadership</h4><ul><li><a onclick="nav('/about')">Current Bishop</a></li><li><a onclick="nav('/about')">Previous Bishops</a></li><li><a onclick="nav('/archdeaconries')">Archdeaconries</a></li></ul></div>
+<div><h4>Contact Us</h4><ul><li><i class="fas fa-envelope"></i> info@akotdiocese.org</li><li><i class="fas fa-phone"></i> +211 920 000 000</li><li><i class="fas fa-clock"></i> Mon–Fri: 8AM–5PM</li></ul><div class="fsoc" style="margin-top:10px"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-youtube"></i></a><a href="#"><i class="fab fa-whatsapp"></i></a></div></div>
 </div>
-<div><h4>Quick Links</h4><ul>
-<li><a onclick="nav('/')">Home</a></li>
-<li><a onclick="nav('/about')">About Us</a></li>
-<li><a onclick="nav('/archdeaconries')">Archdeaconries</a></li>
-<li><a onclick="nav('/contact')">Contact</a></li>
-<li><a onclick="nav('/donate')">Donate</a></li>
-</ul></div>
-<div><h4>Leadership</h4><ul>
-<li><a onclick="nav('/about')">Current Bishop</a></li>
-<li><a onclick="nav('/about')">Previous Bishops</a></li>
-<li><a onclick="nav('/archdeaconries')">Archdeaconries</a></li>
-</ul></div>
-<div><h4>Contact Us</h4><ul>
-<li><i class="fas fa-envelope"></i> info@akotdiocese.org</li>
-<li><i class="fas fa-phone"></i> +211 920 000 000</li>
-<li><i class="fas fa-clock"></i> Mon–Fri: 8AM–5PM</li>
-</ul>
-<div class="fsoc" style="margin-top:10px">
-<a href="#"><i class="fab fa-facebook-f"></i></a>
-<a href="#"><i class="fab fa-twitter"></i></a>
-<a href="#"><i class="fab fa-youtube"></i></a>
-<a href="#"><i class="fab fa-whatsapp"></i></a>
-</div></div>
-</div>
-<div class="fb">
-<span>&copy; 2025 ECSS – Akot Diocese. All rights reserved.</span>
-<span>Made with <i class="fas fa-heart" style="color:#e74c3c"></i> & Faith</span>
-</div>
+<div class="fb"><span>&copy; 2025 ECSS – Akot Diocese. All rights reserved.</span><span>Made with <i class="fas fa-heart" style="color:#e74c3c"></i> & Faith</span></div>
 </div>
 </footer>
-
 <div class="tst" id="tst"></div>
-
 <script>
-// ========== DATA ==========
-const D={
+/* ================================================================
+   DIOCESE DATA
+   ================================================================ */
+var D={
   name:"Akot Diocese",
-  bishop:{name:"Rt. Rev. Matthew Mading Malok Madul",title:"Diocesan Bishop",img:"https://picsum.photos/seed/bishop-paul-g/300/400",bio:"Rt. Rev. Matthew Mading Malok Madul was consecrated as the Diocesan Bishop of Akot in 2024. He has served the church faithfully for over 10 years, bringing transformative leadership and deep spiritual commitment to the people of Lakes State. His vision centers on evangelism, education, and community development."},
+  bishop:{name:"Rt. Rev. Matthew Mading Malok Madul",title:"Diocesan Bishop",img:"https://picsum.photos/seed/bishop-paul-g/300/400",bio:"Rt. Rev. Matthew Mading Malok Madul was consecrated as the Diocesan Bishop of Akot in 2024. He has served the church faithfully for over 10 years, bringing transformative leadership and deep spiritual commitment to the people of Lakes State."},
   chancellor:{name:"Hon. Adv. Michael Kuol Deng",title:"Diocesan Chancellor"},
   secretary:{name:"Rev. Canon Samuel Arol Mayen",title:"Diocesan Secretary"},
   mu:{name:"Mrs. Rebecca Akuol Deng",title:"Head of Mother's Union"},
   laity:{name:"Mr. John Mawien Ring",title:"Head of Laity"},
   youth:{name:"Zacharia Marial Majok",title:"Head of Youth"},
-  prevBishops:[
-    {name:"Rt. Rev. Isaac Dhiew Ater",period:"2009–2015",img:"https://picsum.photos/seed/bish-ezekiel/300/300",bio:"The first Bishop of Akot Diocese, who laid the foundation for the church's growth in the region."},
-  ],
+  prevBishops:[{name:"Rt. Rev. Isaac Dhiew Ater",period:"2009–2015",img:"https://picsum.photos/seed/bish-ezekiel/300/300",bio:"The first Bishop of Akot Diocese, who laid the foundation for the church's growth in the region."}],
   history:[
     {y:"2009",t:"Akot Diocese was officially created and inaugurated, separating from the Diocese of Rumbek."},
     {y:"2010",t:"First diocesan synod held, establishing the governance structure and appointing initial archdeaconries."},
@@ -317,579 +241,485 @@ const D={
   ]
 };
 
-const A=[
-  {id:"ramdor",name:"Ramdor Archdeaconry",theme:"Walking in Faith and Unity",vs:{t:"For we walk by faith, not by sight.",r:"2 Corinthians 5:7"},img:"https://picsum.photos/seed/ramdor-ch/800/400",arch:{name:"Ven. Priscila Kuei Mabeet",img:"https://picsum.photos/seed/ven-james-m/200/200"},mu:"Mrs. Sarah Adut Wol",laity:"Mr. Peter Mawien Arol",youth:"Mr. Thomas Ring Deng"},
-  {id:"aduel",name:"Aduel Archdeaconry",theme:"Hope in the Lord",vs:{t:"Those who hope in the Lord will renew their strength.",r:"Isaiah 40:31"},img:"https://picsum.photos/seed/adual-ch/800/400",arch:{name:"Ven. Mary Akhol Marieu",img:"https://picsum.photos/seed/ven-peter-r/200/200"},mu:"Mrs. Rebecca Akuol Garang",laity:"Mr. Kuol Atem Deng",youth:"Mr. Arol Wol Ring"},
-  {id:"paloch",name:"Paloch Archdeaconry",theme:"Light of the World",vs:{t:"You are the light of the world. A city set on a hill cannot be hidden.",r:"Matthew 5:14"},img:"https://picsum.photos/seed/paloch-ch/800/400",arch:{name:"Ven. Dabora Adut Makoi",img:"https://picsum.photos/seed/ven-atem-d/200/200"},mu:"Mrs. Mary Akuol Arol",laity:"Mr. Kuol Garang Ring",youth:"Mr. Ajang Nhial Deng"},
-  {id:"pan-athiei",name:"Pan-Athiei Archdeaconry",theme:"City on a Hill",vs:{t:"Let your light shine before others, so that they may see your good works.",r:"Matthew 5:16"},img:"https://picsum.photos/seed/akot-ch2/800/400",arch:{name:"Ven. Victoria Yar Dhieu",img:"https://picsum.photos/seed/ven-mawien/200/200"},mu:"Mrs. Rebecca Akuol Nhial",laity:"Mr. Atem Wol Garang",youth:"Mr. Deng Ring Mawien"},
-  {id:"atiaba",name:"Atiaba Archdeaconry",theme:"Strength in Community",vs:{t:"A cord of three strands is not quickly broken.",r:"Ecclesiastes 4:12"},img:"https://picsum.photos/seed/atiaba-ch/800/400",arch:{name:"Ven. Daniel Deng Anhiem",img:"https://picsum.photos/seed/ven-kuol-a/200/200"},mu:"Mrs. Mary Akuol Garang",laity:"Mr. Ring Deng Atem",youth:"Mr. Ajang Wol Nhial"},
-  {id:"karic",name:"Karic Archdeaconry",theme:"Fountain of Living Water",vs:{t:"Whoever drinks of the water that I will give him will never be thirsty again.",r:"John 4:14"},img:"https://picsum.photos/seed/karic-ch/800/400",arch:{name:"Ven. Rebecca Ajak Kachuol",img:"https://picsum.photos/seed/ven-nhial-a/200/200"},mu:"Mrs. Adut Wol Kuol",laity:"Mr. Garang Ajang Deng",youth:"Mr. Arol Mawien Atem"},
-  {id:"maborduang",name:"Maborduang Archdeaconry",theme:"Fortress of Faith",vs:{t:"The Lord is my rock, my fortress, and my deliverer.",r:"Psalm 18:2"},img:"https://picsum.photos/seed/mabord-ch/800/400",arch:{name:"Ven. David Malath Lueth",img:"https://picsum.photos/seed/ven-garang-k/200/200"},mu:"Mrs. Achol Arol Deng",laity:"Mr. Wol Ring Nhial",youth:"Mr. Atem Ajang Garang"},
-  {id:"biling",name:"Biling Archdeaconry",theme:"Garden of Grace",vs:{t:"I am the vine; you are the branches. Whoever abides in me bears much fruit.",r:"John 15:5"},img:"https://picsum.photos/seed/biling-ch/800/400",arch:{name:"Ven. Gabriel Mabor Majak",img:"https://picsum.photos/seed/ven-ring-at/200/200"},mu:"Mrs. Adut Garang Kuol",laity:"Mr. Wol Deng Arol",youth:"Mr. Atem Mawien Ajang"},
-  {id:"dhiaukuei",name:"Dhiaukuei Archdeaconry",theme:"Pillar of Truth",vs:{t:"The church of the living God, a pillar and buttress of the truth.",r:"1 Timothy 3:15"},img:"https://picsum.photos/seed/dhiau-ch/800/400",arch:{name:"Ven. Samuel Mapuor Ngaak",img:"https://picsum.photos/seed/ven-wol-d/200/200"},mu:"Mrs. Nyanut Ajang Atem",laity:"Mr. Kuol Mawien Arol",youth:"Mr. Ring Atem Deng"},
-  {id:"ram-Ajong",name:"Ram-Ajong Archdeaconry",theme:"Risen with Christ",vs:{t:"If then you have been raised with Christ, seek the things that are above.",r:"Colossians 3:1"},img:"https://picsum.photos/seed/majak-ch/800/400",arch:{name:"Ven. Joseph Maker Makuach",img:"https://picsum.photos/seed/ven-atem-w/200/200"},mu:"Mrs. Sarah Akuol Ajang",laity:"Mr. Deng Arol Mawien",youth:"Mr. Ajang Nhial Ring"},
-  {id:"awach",name:"Awach Archdeaconry",theme:"Shield of Salvation",vs:{t:"He is a shield for all who take refuge in him.",r:"2 Samuel 22:31"},img:"https://picsum.photos/seed/new1-ch/800/400",arch:{name:"Ven. Mary Akoi Riong",img:"https://picsum.photos/seed/ven-majok-a/200/200"},mu:"Mrs. Ayen Makuei Deng",laity:"Mr. Chol Mawien Akech",youth:"Mr. Kuol Anyang Thon"},
-  {id:"mou-keer",name:"Mou-keer Archdeaconry",theme:"Harbor of Healing",vs:{t:"He heals the brokenhearted and binds up their wounds.",r:"Psalm 147:3"},img:"https://picsum.photos/seed/new2-ch/800/400",arch:{name:"Ven. Mary Nyanador Ater",img:"https://picsum.photos/seed/ven-akol-t/200/200"},mu:"Mrs. Abuk Deng Akuol",laity:"Mr. Majok Kuol Atem",youth:"Mr. Thon Ring Aguer"},
-  {id:"pagang",name:"Pagang Archdeaconry",theme:"Voice in the Wilderness",vs:{t:"Prepare the way of the Lord; make his paths straight.",r:"Mark 1:3"},img:"https://picsum.photos/seed/new3-ch/800/400",arch:{name:"Ven. Abenego Mayol Akech",img:"https://picsum.photos/seed/ven-alier-m/200/200"},mu:"Mrs. Nyibol Arol Malual",laity:"Mr. Akech Nhial Wol",youth:"Mr. Malual Deng Atem"}
-];
+/* ================================================================
+   ALL 13 ARCHDEACONRIES — EVERY DEANERY & PARISH STANDALONE
+   To customize any entry, just find it below and edit directly.
+   ================================================================ */
+var A=[
 
-// Generate deaneries & parishes dynamically
-const deaneryThemes=[
-  {t:"Guided by the Spirit",v:{t:"Where the Spirit of the Lord is, there is freedom.",r:"2 Corinthians 3:17"}},
-  {t:"Standing Firm in Faith",v:{t:"Stand firm in the faith, be courageous, be strong.",r:"1 Corinthians 16:13"}},
-  {t:"Bound in Love",v:{t:"Let all that you do be done in love.",r:"1 Corinthians 16:14"}}
-];
-const parishThemes=[
-  {t:"Proclaiming the Good News",v:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},n:"St. Mark"},
-  {t:"Living in God's Love",v:{t:"Beloved, let us love one another.",r:"1 John 4:7"},n:"St. John"},
-  {t:"United in the Trinity",v:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},n:"Holy Trinity"}
-];
-const positions=["North","Central","South"];
-const priestNames=["Rev. Daniel Arol Nhial","Rev. Stephen Mabor Deng","Rev. Philip Atem Wol","Rev. Moses Arol Mawien","Rev. Peter Malual Akech","Rev. John Atem Deng","Rev. Abraham Ajang Mabor","Rev. Thomas Deng Arol","Rev. Simon Atem Kuol","Rev. Michael Kuol Garang","Rev. Andrew Kuol Ajang","Rev. David Arol Mawien","Rev. Atem Garang Wol","Rev. Kuol Deng Ajang","Rev. Garang Atem Kuol","Rev. Wol Garang Deng","Rev. Nhial Ring Atem","Rev. Ring Atem Garang","Rev. Deng Garang Ring","Rev. Mawien Atem Garang","Rev. Ajang Deng Garang","Rev. Nhial Wol Atem","Rev. Arol Kuol Nhial","Rev. Wol Atem Arol","Rev. Atem Deng Wol","Rev. Ring Nhial Arol","Rev. Mawien Ajang Ring","Rev. Garang Atem Nhial","Rev. Deng Arol Atem","Rev. Kuol Nhial Deng","Rev. Wol Kuol Ring","Rev. Atem Arol Deng","Rev. Ajang Wol Kuol","Rev. Nhial Deng Atem","Rev. Ring Wol Atem","Rev. Garang Ring Wol","Rev. Deng Wol Ring","Rev. Mawien Kuol Arol","Rev. Arol Atem Wol","Rev. Atem Wol Ring","Rev. Nhial Atem Garang","Rev. Kuol Atem Ring","Rev. Deng Mawien Atem","Rev. Garang Nhial Atem","Rev. Ring Deng Atem","Rev. Ajang Atem Kuol","Rev. Wol Arol Garang","Rev. Atem Garang Nhial","Rev. Deng Atem Nhial","Rev. Mawien Ring Arol","Rev. Nhial Garang Arol","Rev. Arol Deng Wol","Rev. Garang Deng Wol","Rev. Ring Atem Arol","Rev. Kuol Arol Atem","Rev. Ajang Nhial Atem","Rev. Wol Deng Arol","Rev. Deng Arol Ring","Rev. Mawien Atem Arol","Rev. Nhial Arol Garang","Rev. Arol Ajang Wol","Rev. Ring Garang Nhial","Rev. Atem Mawien Atem","Rev. Kuol Wol Garang","Rev. Deng Nhial Kuol","Rev. Garang Wol Atem","Rev. Ajang Ring Wol","Rev. Wol Nhial Garang","Rev. Atem Ajang Deng","Rev. Arol Nhial Kuol","Rev. Ring Mawien Atem","Rev. Nhial Atem Atem","Rev. Kuol Garang Nhial","Rev. Deng Atem Arol","Rev. Mawien Arol Deng","Rev. Garang Arol Wol","Rev. Atem Kuol Wol","Rev. Ajang Atem Deng","Rev. Arol Mawien Atem","Rev. Ring Ajang Nhial","Rev. Nhial Deng Atem","Rev. Kuol Ajang Wol","Rev. Deng Wol Ring","Rev. Mawien Atem Ajang","Rev. Garang Atem Kuol","Rev. Atem Nhial Arol","Rev. Ajang Wol Deng","Rev. Arol Garang Atem","Rev. Ring Wol Garang","Rev. Nhial Ajang Atem","Rev. Kuol Deng Arol","Rev. Deng Garang Ring","Rev. Mawien Nhial Wol","Rev. Garang Ring Atem","Rev. Atem Arol Kuol","Rev. Ajang Kuol Garang","Rev. Arol Atem Garang","Rev. Ring Nhial Deng"];
-const muNames=["Mrs. Achol Atem Mayen","Mrs. Abuk Ring Atem","Mrs. Nyanut Deng Kuol","Mrs. Adut Ajang Atem","Mrs. Akuol Ring Wol","Mrs. Sarah Adut Wol","Mrs. Mary Akuol Deng","Mrs. Grace Achai Atem","Mrs. Achol Garang Deng","Mrs. Nyalual Ring Atem","Mrs. Adut Mawien Arol","Mrs. Abuk Atem Garang","Mrs. Nyanut Atem Arol","Mrs. Achol Kuol Garang","Mrs. Sarah Akuol Ajang","Mrs. Mary Akuol Arol","Mrs. Grace Achai Nhial","Mrs. Achol Arol Atem","Mrs. Adut Wol Atem","Mrs. Nyalual Deng Atem","Mrs. Abuk Garang Nhial","Mrs. Achol Deng Ring","Mrs. Sarah Adut Atem","Mrs. Mary Akuol Ajang","Mrs. Grace Achai Wol","Mrs. Nyanut Ajang Garang","Mrs. Adut Atem Kuol","Mrs. Abuk Mawien Kuol","Mrs. Achol Atem Arol","Mrs. Nyalual Atem Nhial","Mrs. Sarah Akuol Nhial","Mrs. Mary Akuol Kuol","Mrs. Grace Achai Ajang","Mrs. Adut Garang Arol","Mrs. Abuk Deng Kuol","Mrs. Achol Wol Arol","Mrs. Nyanut Garang Kuol","Mrs. Sarah Akuol Atem","Mrs. Adut Ajang Deng","Mrs. Abuk Arol Deng","Mrs. Achol Ring Atem","Mrs. Nyalual Mawien Atem","Mrs. Mary Akuol Garang","Mrs. Grace Achai Arol","Mrs. Adut Nhial Wol","Mrs. Abuk Atem Arol","Mrs. Achol Deng Ajang","Mrs. Sarah Adut Ring","Mrs. Nyanut Arol Atem","Mrs. Adut Kuol Nhial","Mrs. Abuk Ajang Kuol","Mrs. Achol Atem Wol","Mrs. Grace Achai Deng","Mrs. Mary Akuol Nhial","Mrs. Nyalual Deng Wol","Mrs. Sarah Adut Kuol","Mrs. Adut Garang Nhial","Mrs. Abuk Nhial Atem","Mrs. Achol Ajang Arol","Mrs. Grace Achai Ring","Mrs. Mary Akuol Wol","Mrs. Nyanut Ajang Atem","Mrs. Sarah Akuol Arol","Mrs. Adut Atem Arol","Mrs. Abuk Garang Atem","Mrs. Achol Wol Deng","Mrs. Nyalual Atem Garang","Mrs. Grace Achai Kuol","Mrs. Adut Ring Arol","Mrs. Mary Akuol Deng","Mrs. Sarah Adut Nhial","Mrs. Abuk Arol Atem","Mrs. Achol Atem Kuol","Mrs. Nyanut Deng Wol","Mrs. Grace Achai Atem","Mrs. Adut Atem Nhial","Mrs. Mary Akuol Ajang","Mrs. Sarah Akuol Garang","Mrs. Abuk Deng Arol","Mrs. Achol Garang Nhial","Mrs. Nyanut Arol Atem","Mrs. Grace Achai Wol","Mrs. Adut Wol Kuol","Mrs. Mary Akuol Atem","Mrs. Sarah Adut Arol","Mrs. Abuk Atem Nhial","Mrs. Achol Kuol Nhial","Mrs. Nyanut Garang Atem","Mrs. Grace Achai Ajang","Mrs. Adut Ajang Arol","Mrs. Mary Akuol Ring","Mrs. Sarah Akuol Kuol"];
-const laityNames=["Mr. Abraham Ajang Mabor","Mr. Garang Ring Arol","Mr. Wol Atem Mawien","Mr. Deng Ajang Malual","Mr. Atem Nhial Garang","Mr. Ring Wol Ajang","Mr. Kuol Garang Atem","Mr. Arol Ajang Nhial","Mr. Mawien Atem Kuol","Mr. Nhial Atem Wol","Mr. Garang Wol Ajang","Mr. Deng Arol Mabor","Mr. Atem Garang Kuol","Mr. Ring Atem Nhial","Mr. Wol Deng Ajang","Mr. Kuol Nhial Atem","Mr. Ajang Deng Garang","Mr. Arol Mawien Atem","Mr. Mawien Nhial Wol","Mr. Nhial Garang Deng","Mr. Garang Atem Kuol","Mr. Deng Ring Mawien","Mr. Atem Arol Kuol","Mr. Ring Garang Nhial","Mr. Wol Ajang Atem","Mr. Kuol Arol Deng","Mr. Ajang Atem Garang","Mr. Arol Deng Wol","Mr. Mawien Atem Ajang","Mr. Nhial Kuol Ring","Mr. Garang Deng Atem","Mr. Deng Atem Nhial","Mr. Atem Wol Ring","Mr. Ring Ajang Deng","Mr. Wol Garang Arol","Mr. Kuol Wol Deng","Mr. Ajang Nhial Kuol","Mr. Arol Atem Wol","Mr. Mawien Ring Arol","Mr. Nhial Deng Ajang","Mr. Garang Arol Atem","Mr. Deng Wol Garang","Mr. Atem Kuol Arol","Mr. Ring Deng Atem","Mr. Wol Nhial Atem","Mr. Kuol Atem Wol","Mr. Ajang Arol Garang","Mr. Arol Ajang Atem","Mr. Mawien Garang Nhial","Mr. Nhial Atem Arol","Mr. Garang Wol Kuol","Mr. Deng Atem Garang","Mr. Atem Nhial Ajang","Mr. Ring Atem Arol","Mr. Wol Atem Deng","Mr. Kuol Deng Atem","Mr. Ajang Wol Atem","Mr. Arol Kuol Mawien","Mr. Mawien Ajang Ring","Mr. Nhial Ring Atem","Mr. Garang Atem Arol","Mr. Deng Ajang Wol","Mr. Atem Garang Nhial","Mr. Ring Nhial Atem","Mr. Wol Arol Atem","Mr. Kuol Garang Deng","Mr. Ajang Atem Nhial","Mr. Arol Wol Garang","Mr. Mawien Atem Garang","Mr. Nhial Arol Deng","Mr. Garang Nhial Ring","Mr. Deng Kuol Arol","Mr. Atem Ajang Kuol","Mr. Ring Wol Ajang","Mr. Wol Mawien Atem","Mr. Kuol Ring Nhial","Mr. Ajang Garang Wol","Mr. Arol Atem Deng","Mr. Mawien Kuol Arol","Mr. Nhial Wol Ring","Mr. Garang Atem Ajang","Mr. Deng Arol Atem","Mr. Atem Deng Arol","Mr. Ring Arol Atem","Mr. Wol Kuol Deng","Mr. Kuol Ajang Atem","Mr. Ajang Atem Arol","Mr. Arol Garang Nhial","Mr. Mawien Wol Atem","Mr. Nhial Atem Ajang","Mr. Garang Deng Nhial","Mr. Deng Nhial Garang","Mr. Atem Arol Ajang","Mr. Ring Kuol Wol","Mr. Wol Atem Arol"];
-const youthNames=["Mr. Daniel Atem Nhial","Mr. Garang Ring Atem","Mr. Arol Deng Kuol","Mr. Mawien Ajang Ring","Mr. Nhial Atem Arol","Mr. Ring Deng Atem","Mr. Wol Garang Atem","Mr. Kuol Atem Deng","Mr. Ajang Nhial Wol","Mr. Arol Mawien Atem","Mr. Mawien Ring Nhial","Mr. Nhial Kuol Atem","Mr. Garang Atem Wol","Mr. Deng Arol Ajang","Mr. Atem Garang Nhial","Mr. Ring Wol Garang","Mr. Wol Atem Deng","Mr. Kuol Nhial Arol","Mr. Ajang Garang Atem","Mr. Arol Ajang Kuol","Mr. Mawien Atem Deng","Mr. Nhial Ring Wol","Mr. Garang Deng Atem","Mr. Deng Atem Garang","Mr. Atem Nhial Atem","Mr. Ring Arol Nhial","Mr. Wol Nhial Atem","Mr. Kuol Garang Arol","Mr. Ajang Atem Deng","Mr. Arol Wol Ring","Mr. Mawien Garang Kuol","Mr. Nhial Ajang Atem","Mr. Garang Wol Atem","Mr. Deng Nhial Ring","Mr. Atem Arol Garang","Mr. Ring Atem Kuol","Mr. Wol Deng Atem","Mr. Kuol Wol Arol","Mr. Ajang Ring Atem","Mr. Arol Atem Wol","Mr. Mawien Arol Nhial","Mr. Nhial Garang Arol","Mr. Garang Atem Ajang","Mr. Deng Kuol Atem","Mr. Atem Wol Garang","Mr. Ring Nhial Atem","Mr. Wol Arol Kuol","Mr. Kuol Deng Arol","Mr. Ajang Atem Arol","Mr. Arol Garang Deng","Mr. Mawien Nhial Atem","Mr. Nhial Atem Arol","Mr. Garang Ring Nhial","Mr. Deng Atem Arol","Mr. Atem Ajang Atem","Mr. Ring Garang Atem","Mr. Wol Kuol Atem","Mr. Kuol Arol Atem","Mr. Ajang Wol Deng","Mr. Arol Atem Arol","Mr. Mawien Deng Arol","Mr. Nhial Atem Garang","Mr. Garang Arol Ring","Mr. Deng Garang Nhial","Mr. Atem Kuol Arol","Mr. Ring Atem Atem","Mr. Wol Ajang Arol","Mr. Kuol Nhial Garang","Mr. Ajang Deng Atem","Mr. Arol Nhial Atem","Mr. Mawien Atem Atem","Mr. Nhial Wol Atem","Mr. Garang Atem Kuol","Mr. Deng Arol Nhial","Mr. Atem Deng Wol","Mr. Ring Wol Arol","Mr. Wol Garang Ring","Mr. Kuol Atem Arol","Mr. Ajang Arol Atem","Mr. Arol Kuol Atem","Mr. Mawien Ajang Arol","Mr. Nhial Deng Atem","Mr. Garang Nhial Atem","Mr. Deng Wol Atem","Mr. Atem Arol Nhial","Mr. Ring Ajang Arol","Mr. Wol Atem Atem","Mr. Kuol Garang Wol","Mr. Ajang Nhial Atem","Mr. Arol Atem Kuol","Mr. Mawien Ring Atem","Mr. Nhial Atem Nhial","Mr. Garang Wol Ring","Mr. Deng Ring Atem"];
-const ruralDeanNames=["Rev. Michael Kuol Garang","Rev. Andrew Kuol Ajang","Rev. David Arol Mawien","Rev. Atem Garang Wol","Rev. Kuol Deng Ajang","Rev. Garang Atem Kuol","Rev. Wol Garang Deng","Rev. Nhial Ring Atem","Rev. Ring Atem Garang","Rev. Arol Mawien Atem","Rev. Ajang Atem Deng","Rev. Deng Wol Garang","Rev. Mawien Ring Arol","Rev. Garang Deng Wol","Rev. Atem Wol Kuol","Rev. Nhial Atem Garang","Rev. Deng Arol Wol","Rev. Ring Nhial Arol","Rev. Wol Arol Garang","Rev. Ajang Deng Garang","Rev. Mawien Arol Atem","Rev. Kuol Atem Ring","Rev. Arol Deng Wol","Rev. Garang Nhial Atem","Rev. Deng Atem Wol","Rev. Nhial Wol Atem","Rev. Ring Wol Atem","Rev. Atem Arol Deng","Rev. Wol Kuol Ring","Rev. Ajang Atem Arol"];
+/* ==================== 1. RAMDOR ==================== */
+{id:"ramdor",name:"Ramdor Archdeaconry",theme:"Walking in Faith and Unity",vs:{t:"For we walk by faith, not by sight.",r:"2 Corinthians 5:7"},img:"https://picsum.photos/seed/ramdor-ch/800/400",arch:{name:"Ven. Priscila Kuei Mabeet",img:"https://picsum.photos/seed/ven-james-m/200/200"},mu:"Mrs. Sarah Adut Wol",laity:"Mr. Peter Mawien Arol",youth:"Mr. Thomas Ring Deng",
+deaneries:[
+  {id:"ramdor-north",name:"Ramdor North Deanery",theme:"Guided by the Spirit",vs:{t:"Where the Spirit of the Lord is, there is freedom.",r:"2 Corinthians 3:17"},img:"https://picsum.photos/seed/ramdor-north/800/400",rd:{name:"Rev. Michael Kuol Garang",img:"https://picsum.photos/seed/ramdor-north-rd/200/200"},mu:"Mrs. Achol Atem Mayen",laity:"Mr. Abraham Ajang Mabor",youth:"Mr. Daniel Atem Nhial",
+  parishes:[
+    {id:"ramdor-north-p1",name:"St. Mark Parish - North",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/ramdor-north-p1/600/300",priest:{name:"Rev. Daniel Arol Nhial",img:"https://picsum.photos/seed/ramdor-north-p1-pr/200/200"},mu:"Mrs. Abuk Ring Atem",laity:"Mr. Wol Atem Mawien",youth:"Mr. Garang Ring Atem"},
+    {id:"ramdor-north-p2",name:"St. John Parish - North",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/ramdor-north-p2/600/300",priest:{name:"Rev. Stephen Mabor Deng",img:"https://picsum.photos/seed/ramdor-north-p2-pr/200/200"},mu:"Mrs. Nyanut Deng Kuol",laity:"Mr. Deng Ajang Malual",youth:"Mr. Arol Deng Kuol"},
+    {id:"ramdor-north-p3",name:"Holy Trinity Parish - North",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/ramdor-north-p3/600/300",priest:{name:"Rev. Philip Atem Wol",img:"https://picsum.photos/seed/ramdor-north-p3-pr/200/200"},mu:"Mrs. Adut Ajang Atem",laity:"Mr. Atem Nhial Garang",youth:"Mr. Mawien Ajang Ring"}
+  ]},
+  {id:"ramdor-central",name:"Ramdor Central Deanery",theme:"Standing Firm in Faith",vs:{t:"Stand firm in the faith, be courageous, be strong.",r:"1 Corinthians 16:13"},img:"https://picsum.photos/seed/ramdor-central/800/400",rd:{name:"Rev. Andrew Kuol Ajang",img:"https://picsum.photos/seed/ramdor-central-rd/200/200"},mu:"Mrs. Mary Akuol Deng",laity:"Mr. Ring Mabor Atem",youth:"Mr. Atem Nhial Wol",
+  parishes:[
+    {id:"ramdor-central-p1",name:"St. Mark Parish - Central",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/ramdor-central-p1/600/300",priest:{name:"Rev. Moses Arol Mawien",img:"https://picsum.photos/seed/ramdor-central-p1-pr/200/200"},mu:"Mrs. Achol Garang Deng",laity:"Mr. Wol Ajang Ring",youth:"Mr. Mawien Atem Kuol"},
+    {id:"ramdor-central-p2",name:"St. John Parish - Central",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/ramdor-central-p2/600/300",priest:{name:"Rev. Peter Malual Akech",img:"https://picsum.photos/seed/ramdor-central-p2-pr/200/200"},mu:"Mrs. Nyalual Ring Atem",laity:"Mr. Deng Arol Mabor",youth:"Mr. Garang Wol Ajang"},
+    {id:"ramdor-central-p3",name:"Holy Trinity Parish - Central",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/ramdor-central-p3/600/300",priest:{name:"Rev. John Atem Deng",img:"https://picsum.photos/seed/ramdor-central-p3-pr/200/200"},mu:"Mrs. Adut Kuol Garang",laity:"Mr. Nhial Arol Ring",youth:"Mr. Ajang Mawien Atem"}
+  ]},
+  {id:"ramdor-south",name:"Ramdor South Deanery",theme:"Bound in Love",vs:{t:"Let all that you do be done in love.",r:"1 Corinthians 16:14"},img:"https://picsum.photos/seed/ramdor-south/800/400",rd:{name:"Rev. David Arol Mawien",img:"https://picsum.photos/seed/ramdor-south-rd/200/200"},mu:"Mrs. Grace Achai Deng",laity:"Mr. Atem Garang Kuol",youth:"Mr. Ring Wol Ajang",
+  parishes:[
+    {id:"ramdor-south-p1",name:"St. Mark Parish - South",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/ramdor-south-p1/600/300",priest:{name:"Rev. Abraham Ajang Mabor",img:"https://picsum.photos/seed/ramdor-south-p1-pr/200/200"},mu:"Mrs. Sarah Akuol Atem",laity:"Mr. Kuol Ring Deng",youth:"Mr. Mawien Nhial Garang"},
+    {id:"ramdor-south-p2",name:"St. John Parish - South",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/ramdor-south-p2/600/300",priest:{name:"Rev. Thomas Deng Arol",img:"https://picsum.photos/seed/ramdor-south-p2-pr/200/200"},mu:"Mrs. Achol Wol Atem",laity:"Mr. Garang Kuol Ring",youth:"Mr. Arol Ajang Nhial"},
+    {id:"ramdor-south-p3",name:"Holy Trinity Parish - South",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/ramdor-south-p3/600/300",priest:{name:"Rev. Simon Atem Kuol",img:"https://picsum.photos/seed/ramdor-south-p3-pr/200/200"},mu:"Mrs. Nyanut Arol Deng",laity:"Mr. Ajang Garang Wol",youth:"Mr. Deng Ring Mawien"}
+  ]}
+]},
 
-let nIdx=0;
-function nxt(arr){const v=arr[nIdx%arr.length];nIdx++;return v}
+/* ==================== 2. ADUEL ==================== */
+{id:"aduel",name:"Aduel Archdeaconry",theme:"Hope in the Lord",vs:{t:"Those who hope in the Lord will renew their strength.",r:"Isaiah 40:31"},img:"https://picsum.photos/seed/adual-ch/800/400",arch:{name:"Ven. Mary Akhol Marieu",img:"https://picsum.photos/seed/ven-peter-r/200/200"},mu:"Mrs. Rebecca Akuol Garang",laity:"Mr. Kuol Atem Deng",youth:"Mr. Arol Wol Ring",
+deaneries:[
+  {id:"aduel-north",name:"Aduel North Deanery",theme:"Guided by the Spirit",vs:{t:"Where the Spirit of the Lord is, there is freedom.",r:"2 Corinthians 3:17"},img:"https://picsum.photos/seed/aduel-north/800/400",rd:{name:"Rev. Atem Garang Wol",img:"https://picsum.photos/seed/aduel-north-rd/200/200"},mu:"Mrs. Adut Ajang Atem",laity:"Mr. Deng Mawien Kuol",youth:"Mr. Ring Arol Nhial",
+  parishes:[
+    {id:"aduel-north-p1",name:"St. Mark Parish - North",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/aduel-north-p1/600/300",priest:{name:"Rev. Wol Deng Arol",img:"https://picsum.photos/seed/aduel-north-p1-pr/200/200"},mu:"Mrs. Achol Nhial Ring",laity:"Mr. Mawien Wol Garang",youth:"Mr. Ajang Kuol Mabor"},
+    {id:"aduel-north-p2",name:"St. John Parish - North",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/aduel-north-p2/600/300",priest:{name:"Rev. Nhial Atem Deng",img:"https://picsum.photos/seed/aduel-north-p2-pr/200/200"},mu:"Mrs. Akuol Ring Wol",laity:"Mr. Garang Ajang Kuol",youth:"Mr. Atem Mawien Arol"},
+    {id:"aduel-north-p3",name:"Holy Trinity Parish - North",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/aduel-north-p3/600/300",priest:{name:"Rev. Mawien Arol Garang",img:"https://picsum.photos/seed/aduel-north-p3-pr/200/200"},mu:"Mrs. Nyalual Deng Atem",laity:"Mr. Arol Nhial Kuol",youth:"Mr. Deng Ring Wol"}
+  ]},
+  {id:"aduel-central",name:"Aduel Central Deanery",theme:"Standing Firm in Faith",vs:{t:"Stand firm in the faith, be courageous, be strong.",r:"1 Corinthians 16:13"},img:"https://picsum.photos/seed/aduel-central/800/400",rd:{name:"Rev. Kuol Deng Ajang",img:"https://picsum.photos/seed/aduel-central-rd/200/200"},mu:"Mrs. Sarah Garang Arol",laity:"Mr. Atem Wol Ring",youth:"Mr. Ring Deng Mawien",
+  parishes:[
+    {id:"aduel-central-p1",name:"St. Mark Parish - Central",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/aduel-central-p1/600/300",priest:{name:"Rev. Ajang Mawien Atem",img:"https://picsum.photos/seed/aduel-central-p1-pr/200/200"},mu:"Mrs. Adut Kuol Arol",laity:"Mr. Wol Garang Deng",youth:"Mr. Mawien Atem Nhial"},
+    {id:"aduel-central-p2",name:"St. John Parish - Central",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/aduel-central-p2/600/300",priest:{name:"Rev. Deng Ring Atem",img:"https://picsum.photos/seed/aduel-central-p2-pr/200/200"},mu:"Mrs. Achol Ajang Wol",laity:"Mr. Garang Atem Kuol",youth:"Mr. Arol Mawien Ajang"},
+    {id:"aduel-central-p3",name:"Holy Trinity Parish - Central",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/aduel-central-p3/600/300",priest:{name:"Rev. Ring Wol Garang",img:"https://picsum.photos/seed/aduel-central-p3-pr/200/200"},mu:"Mrs. Nyanut Atem Arol",laity:"Mr. Atem Deng Mawien",youth:"Mr. Nhial Ajang Ring"}
+  ]},
+  {id:"aduel-south",name:"Aduel South Deanery",theme:"Bound in Love",vs:{t:"Let all that you do be done in love.",r:"1 Corinthians 16:14"},img:"https://picsum.photos/seed/aduel-south/800/400",rd:{name:"Rev. Garang Atem Kuol",img:"https://picsum.photos/seed/aduel-south-rd/200/200"},mu:"Mrs. Grace Achai Kuol",laity:"Mr. Wol Kuol Ring",youth:"Mr. Deng Atem Nhial",
+  parishes:[
+    {id:"aduel-south-p1",name:"St. Mark Parish - South",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/aduel-south-p1/600/300",priest:{name:"Rev. Arol Deng Ajang",img:"https://picsum.photos/seed/aduel-south-p1-pr/200/200"},mu:"Mrs. Abuk Mawien Atem",laity:"Mr. Deng Wol Garang",youth:"Mr. Ring Atem Nhial"},
+    {id:"aduel-south-p2",name:"St. John Parish - South",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/aduel-south-p2/600/300",priest:{name:"Rev. Wol Arol Ring",img:"https://picsum.photos/seed/aduel-south-p2-pr/200/200"},mu:"Mrs. Akuol Garang Kuol",laity:"Mr. Atem Ajang Deng",youth:"Mr. Mawien Nhial Wol"},
+    {id:"aduel-south-p3",name:"Holy Trinity Parish - South",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/aduel-south-p3/600/300",priest:{name:"Rev. Nhial Kuol Atem",img:"https://picsum.photos/seed/aduel-south-p3-pr/200/200"},mu:"Mrs. Achol Deng Wol",laity:"Mr. Garang Mawien Arol",youth:"Mr. Ajang Ring Atem"}
+  ]}
+]},
 
-A.forEach(a=>{
-  a.deaneries=[];
-  positions.forEach((pos,di)=>{
-    const dt=deaneryThemes[di];
-    const rdName=ruralDeanNames[nxt([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29])%ruralDeanNames.length];
-    const deanId=a.id+"-"+pos.toLowerCase();
-    const deanery={
-      id:deanId,name:a.name.replace(" Archdeaconry","")+" "+pos+" Deanery",
-      theme:dt.t,vs:dt.v,
-      img:"https://picsum.photos/seed/"+deanId+"/800/400",
-      rd:{name:rdName,img:"https://picsum.photos/seed/"+deanId+"-rd/200/200"},
-      mu:nxt(muNames),laity:nxt(laityNames),youth:nxt(youthNames),
-      parishes:[]
-    };
-    parishThemes.forEach((pt,pi)=>{
-      const pid=deanId+"-p"+(pi+1);
-      const pName=pt.n+" Parish - "+pos;
-      deanery.parishes.push({
-        id:pid,name:pName,theme:pt.t,vs:pt.v,
-        img:"https://picsum.photos/seed/"+pid+"/600/300",
-        priest:{name:nxt(priestNames),img:"https://picsum.photos/seed/"+pid+"-pr/200/200"},
-        mu:nxt(muNames),laity:nxt(laityNames),youth:nxt(youthNames)
-      });
-    });
-    a.deaneries.push(deanery);
-  });
-});
+/* ==================== 3. PALOCH ==================== */
+{id:"paloch",name:"Paloch Archdeaconry",theme:"Light of the World",vs:{t:"You are the light of the world. A city set on a hill cannot be hidden.",r:"Matthew 5:14"},img:"https://picsum.photos/seed/paloch-ch/800/400",arch:{name:"Ven. Dabora Adut Makoi",img:"https://picsum.photos/seed/ven-atem-d/200/200"},mu:"Mrs. Mary Akuol Arol",laity:"Mr. Kuol Garang Ring",youth:"Mr. Ajang Nhial Deng",
+deaneries:[
+  {id:"paloch-agangrial",name:"Agangrial Deanery",theme:"Guided by the Spirit",vs:{t:"Where the Spirit of the Lord is, there is freedom.",r:"2 Corinthians 3:17"},img:"https://picsum.photos/seed/paloch-agangrial/800/400",rd:{name:"Dabora Achol Machuol",img:"https://picsum.photos/seed/paloch-agangrial-rd/200/200"},mu:"Mrs. Achol Atem Mayen",laity:"Mr. Abraham Ajang Mabor",youth:"Mr. Daniel Atem Nhial",
+  parishes:[
+    {id:"paloch-agangrial-p1",name:"St. Mark Parish",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/paloch-agangrial-p1/600/300",priest:{name:"Rev. Daniel Arol Nhial",img:"https://picsum.photos/seed/paloch-agangrial-p1-pr/200/200"},mu:"Mrs. Abuk Ring Atem",laity:"Mr. Wol Atem Mawien",youth:"Mr. Garang Ring Atem"},
+    {id:"paloch-agangrial-p2",name:"St. John Parish",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/paloch-agangrial-p2/600/300",priest:{name:"Rev. Stephen Mabor Deng",img:"https://picsum.photos/seed/paloch-agangrial-p2-pr/200/200"},mu:"Mrs. Nyanut Deng Kuol",laity:"Mr. Deng Ajang Malual",youth:"Mr. Arol Deng Kuol"},
+    {id:"paloch-agangrial-p3",name:"Holy Trinity Parish",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/paloch-agangrial-p3/600/300",priest:{name:"Rev. Philip Atem Wol",img:"https://picsum.photos/seed/paloch-agangrial-p3-pr/200/200"},mu:"Mrs. Adut Ajang Atem",laity:"Mr. Atem Nhial Garang",youth:"Mr. Mawien Ajang Ring"}
+  ]},
+  {id:"paloch-aloom",name:"Aloom Deanery",theme:"Standing Firm in Faith",vs:{t:"Stand firm in the faith, be courageous, be strong.",r:"1 Corinthians 16:13"},img:"https://picsum.photos/seed/paloch-aloom/800/400",rd:{name:"Rev. Kana Yar Mannga",img:"https://picsum.photos/seed/paloch-aloom-rd/200/200"},mu:"Mrs. Mary Akuol Deng",laity:"Mr. Ring Mabor Atem",youth:"Mr. Atem Nhial Wol",
+  parishes:[
+    {id:"paloch-aloom-p1",name:"St. Mark Parish",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/paloch-aloom-p1/600/300",priest:{name:"Rev. Moses Arol Mawien",img:"https://picsum.photos/seed/paloch-aloom-p1-pr/200/200"},mu:"Mrs. Achol Garang Deng",laity:"Mr. Wol Ajang Ring",youth:"Mr. Mawien Atem Kuol"},
+    {id:"paloch-aloom-p2",name:"St. John Parish",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/paloch-aloom-p2/600/300",priest:{name:"Rev. Peter Malual Akech",img:"https://picsum.photos/seed/paloch-aloom-p2-pr/200/200"},mu:"Mrs. Nyalual Ring Atem",laity:"Mr. Deng Arol Mabor",youth:"Mr. Garang Wol Ajang"},
+    {id:"paloch-aloom-p3",name:"Holy Trinity Parish",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/paloch-aloom-p3/600/300",priest:{name:"Rev. John Atem Deng",img:"https://picsum.photos/seed/paloch-aloom-p3-pr/200/200"},mu:"Mrs. Adut Kuol Garang",laity:"Mr. Nhial Arol Ring",youth:"Mr. Ajang Mawien Atem"}
+  ]},
+  {id:"paloch-achuar",name:"Achuar Deanery",theme:"Bound in Love",vs:{t:"Let all that you do be done in love.",r:"1 Corinthians 16:14"},img:"https://picsum.photos/seed/paloch-achuar/800/400",rd:{name:"Rev. Joseph Gurke Manhom",img:"https://picsum.photos/seed/paloch-achuar-rd/200/200"},mu:"Mrs. Grace Achai Deng",laity:"Mr. Atem Garang Kuol",youth:"Mr. Ring Wol Ajang",
+  parishes:[
+    {id:"paloch-achuar-p1",name:"St. Mark Parish",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/paloch-achuar-p1/600/300",priest:{name:"Rev. Abraham Ajang Mabor",img:"https://picsum.photos/seed/paloch-achuar-p1-pr/200/200"},mu:"Mrs. Sarah Akuol Atem",laity:"Mr. Kuol Ring Deng",youth:"Mr. Mawien Nhial Garang"},
+    {id:"paloch-achuar-p2",name:"St. John Parish",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/paloch-achuar-p2/600/300",priest:{name:"Rev. Thomas Deng Arol",img:"https://picsum.photos/seed/paloch-achuar-p2-pr/200/200"},mu:"Mrs. Achol Wol Atem",laity:"Mr. Garang Kuol Ring",youth:"Mr. Arol Ajang Nhial"},
+    {id:"paloch-achuar-p3",name:"Holy Trinity Parish",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/paloch-achuar-p3/600/300",priest:{name:"Rev. Simon Atem Kuol",img:"https://picsum.photos/seed/paloch-achuar-p3-pr/200/200"},mu:"Mrs. Nyanut Arol Deng",laity:"Mr. Ajang Garang Wol",youth:"Mr. Deng Ring Mawien"}
+  ]}
+]},
 
-function gA(id){return A.find(a=>a.id===id)}
-function gD(ai,di){const a=gA(ai);return a?a.deaneries.find(d=>d.id===di):null}
-function gP(ai,di,pi){const d=gD(ai,di);return d?d.parishes.find(p=>p.id===pi):null}
+/* ==================== 4. PAN-ATHIEI (4 DEANERIES) ==================== */
+{id:"pan-athiei",name:"Pan-Athiei Archdeaconry",theme:"City on a Hill",vs:{t:"Let your light shine before others, so that they may see your good works.",r:"Matthew 5:16"},img:"https://picsum.photos/seed/akot-ch2/800/400",arch:{name:"Ven. Victoria Yar Dhieu",img:"https://picsum.photos/seed/ven-mawien/200/200"},mu:"Mrs. Rebecca Akuol Nhial",laity:"Mr. Atem Wol Garang",youth:"Mr. Deng Ring Mawien",
+deaneries:[
+  {id:"panathiei-ameth-agok",name:"Ameth-agok Deanery",theme:"Guided by the Spirit",vs:{t:"Where the Spirit of the Lord is, there is freedom.",r:"2 Corinthians 3:17"},img:"https://picsum.photos/seed/panath-ameth-agok/800/400",rd:{name:"Rev. Gabriel Mangar Kueng",img:"https://picsum.photos/seed/panath-ameth-agok-rd/200/200"},mu:"Mrs. Achol Atem Mayen",laity:"Mr. Abraham Ajang Mabor",youth:"Mr. Daniel Atem Nhial",
+  parishes:[
+    {id:"panath-ameth-agok-p1",name:"St. Mark Parish",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/panath-ameth-agok-p1/600/300",priest:{name:"Rev. Daniel Arol Nhial",img:"https://picsum.photos/seed/panath-ameth-agok-p1-pr/200/200"},mu:"Mrs. Abuk Ring Atem",laity:"Mr. Wol Atem Mawien",youth:"Mr. Garang Ring Atem"},
+    {id:"panath-ameth-agok-p2",name:"St. John Parish",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/panath-ameth-agok-p2/600/300",priest:{name:"Rev. Stephen Mabor Deng",img:"https://picsum.photos/seed/panath-ameth-agok-p2-pr/200/200"},mu:"Mrs. Nyanut Deng Kuol",laity:"Mr. Deng Ajang Malual",youth:"Mr. Arol Deng Kuol"},
+    {id:"panath-ameth-agok-p3",name:"Holy Trinity Parish",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/panath-ameth-agok-p3/600/300",priest:{name:"Rev. Philip Atem Wol",img:"https://picsum.photos/seed/panath-ameth-agok-p3-pr/200/200"},mu:"Mrs. Adut Ajang Atem",laity:"Mr. Atem Nhial Garang",youth:"Mr. Mawien Ajang Ring"}
+  ]},
+  {id:"panathiei-pul-arop",name:"Pul-arop Deanery",theme:"Standing Firm in Faith",vs:{t:"Stand firm in the faith, be courageous, be strong.",r:"1 Corinthians 16:13"},img:"https://picsum.photos/seed/panath-pul-arop/800/400",rd:{name:"Rev. Abraham Makur Malual",img:"https://picsum.photos/seed/panath-pul-arop-rd/200/200"},mu:"Mrs. Mary Akuol Deng",laity:"Mr. Ring Mabor Atem",youth:"Mr. Atem Nhial Wol",
+  parishes:[
+    {id:"panath-pul-arop-p1",name:"St. Mark Parish",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/panath-pul-arop-p1/600/300",priest:{name:"Rev. Moses Arol Mawien",img:"https://picsum.photos/seed/panath-pul-arop-p1-pr/200/200"},mu:"Mrs. Achol Garang Deng",laity:"Mr. Wol Ajang Ring",youth:"Mr. Mawien Atem Kuol"},
+    {id:"panath-pul-arop-p2",name:"St. John Parish",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/panath-pul-arop-p2/600/300",priest:{name:"Rev. Peter Malual Akech",img:"https://picsum.photos/seed/panath-pul-arop-p2-pr/200/200"},mu:"Mrs. Nyalual Ring Atem",laity:"Mr. Deng Arol Mabor",youth:"Mr. Garang Wol Ajang"},
+    {id:"panath-pul-arop-p3",name:"Holy Trinity Parish",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/panath-pul-arop-p3/600/300",priest:{name:"Rev. John Atem Deng",img:"https://picsum.photos/seed/panath-pul-arop-p3-pr/200/200"},mu:"Mrs. Adut Kuol Garang",laity:"Mr. Nhial Arol Ring",youth:"Mr. Ajang Mawien Atem"}
+  ]},
+  {id:"panathiei-mayom",name:"Mayom Deanery",theme:"Bound in Love",vs:{t:"Let all that you do be done in love.",r:"1 Corinthians 16:14"},img:"https://picsum.photos/seed/panath-mayom/800/400",rd:{name:"Pricila Nyibol Manyiel",img:"https://picsum.photos/seed/panath-mayom-rd/200/200"},mu:"Mrs. Grace Achai Deng",laity:"Mr. Atem Garang Kuol",youth:"Mr. Ring Wol Ajang",
+  parishes:[
+    {id:"panath-mayom-p1",name:"St. Mark Parish",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/panath-mayom-p1/600/300",priest:{name:"Rev. Abraham Ajang Mabor",img:"https://picsum.photos/seed/panath-mayom-p1-pr/200/200"},mu:"Mrs. Sarah Akuol Atem",laity:"Mr. Kuol Ring Deng",youth:"Mr. Mawien Nhial Garang"},
+    {id:"panath-mayom-p2",name:"St. John Parish",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/panath-mayom-p2/600/300",priest:{name:"Rev. Thomas Deng Arol",img:"https://picsum.photos/seed/panath-mayom-p2-pr/200/200"},mu:"Mrs. Achol Wol Atem",laity:"Mr. Garang Kuol Ring",youth:"Mr. Arol Ajang Nhial"},
+    {id:"panath-mayom-p3",name:"Holy Trinity Parish",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/panath-mayom-p3/600/300",priest:{name:"Rev. Simon Atem Kuol",img:"https://picsum.photos/seed/panath-mayom-p3-pr/200/200"},mu:"Mrs. Nyanut Arol Deng",laity:"Mr. Ajang Garang Wol",youth:"Mr. Deng Ring Mawien"}
+  ]},
+  {id:"panathiei-makhol-tit",name:"Makhol-tit Deanery",theme:"Rooted in Christ",vs:{t:"Rooted and built up in him, established in the faith.",r:"Colossians 2:7"},img:"https://picsum.photos/seed/panath-makhol-tit/800/400",rd:{name:"Rev. Martin Madol Gumke",img:"https://picsum.photos/seed/panath-makhol-tit-rd/200/200"},mu:"Mrs. Abuk Akuol Deng",laity:"Mr. Mawien Atem Ring",youth:"Mr. Arol Deng Wol",
+  parishes:[
+    {id:"panath-makhol-tit-p1",name:"St. Mark Parish",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/panath-makhol-tit-p1/600/300",priest:{name:"Rev. Wol Deng Atem",img:"https://picsum.photos/seed/panath-makhol-tit-p1-pr/200/200"},mu:"Mrs. Nyalual Garang Atem",laity:"Mr. Kuol Arol Mawien",youth:"Mr. Ring Ajang Deng"},
+    {id:"panath-makhol-tit-p2",name:"St. John Parish",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/panath-makhol-tit-p2/600/300",priest:{name:"Rev. Ajang Wol Garang",img:"https://picsum.photos/seed/panath-makhol-tit-p2-pr/200/200"},mu:"Mrs. Achol Ring Arol",laity:"Mr. Deng Nhial Kuol",youth:"Mr. Atem Mawien Ring"},
+    {id:"panath-makhol-tit-p3",name:"Holy Trinity Parish",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/panath-makhol-tit-p3/600/300",priest:{name:"Rev. Garang Atem Nhial",img:"https://picsum.photos/seed/panath-makhol-tit-p3-pr/200/200"},mu:"Mrs. Sarah Adut Wol",laity:"Mr. Arol Kuol Ajang",youth:"Mr. Mawien Arol Deng"}
+  ]}
+]},
 
-function lc(img,name,role){
-  return `<div class="lp"><img src="${img}" alt="${name}" onerror="this.src='https://picsum.photos/seed/${encodeURIComponent(name)}/200/200'"><div class="lpi"><h4>${name}</h4><div class="rl">${role}</div></div></div>`;
-}
-function cv(v){return `<div class="cvrs">"${v.t}" — ${v.r}</div>`}
-function toast(msg,cls){const t=document.getElementById('tst');t.textContent=msg;t.className='tst'+(cls?' '+cls:'');setTimeout(()=>t.classList.add('show'),10);setTimeout(()=>t.classList.remove('show'),3500)}
+/* ==================== 5. ATIABA ==================== */
+{id:"atiaba",name:"Atiaba Archdeaconry",theme:"Strength in Community",vs:{t:"A cord of three strands is not quickly broken.",r:"Ecclesiastes 4:12"},img:"https://picsum.photos/seed/atiaba-ch/800/400",arch:{name:"Ven. Daniel Deng Anhiem",img:"https://picsum.photos/seed/ven-kuol-a/200/200"},mu:"Mrs. Mary Akuol Garang",laity:"Mr. Ring Deng Atem",youth:"Mr. Ajang Wol Nhial",
+deaneries:[
+  {id:"atiaba-bar-ater",name:"Bar-ater Deanery",theme:"Guided by the Spirit",vs:{t:"Where the Spirit of the Lord is, there is freedom.",r:"2 Corinthians 3:17"},img:"https://picsum.photos/seed/atiaba-bar-ater/800/400",rd:{name:"Rev. Jacob Majur",img:"https://picsum.photos/seed/atiaba-bar-ater-rd/200/200"},mu:"Mrs. Achol Atem Mayen",laity:"Mr. Abraham Ajang Mabor",youth:"Mr. Daniel Atem Nhial",
+  parishes:[
+    {id:"atiaba-bar-ater-p1",name:"St. Mark Parish",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/atiaba-bar-ater-p1/600/300",priest:{name:"Rev. Daniel Arol Nhial",img:"https://picsum.photos/seed/atiaba-bar-ater-p1-pr/200/200"},mu:"Mrs. Abuk Ring Atem",laity:"Mr. Wol Atem Mawien",youth:"Mr. Garang Ring Atem"},
+    {id:"atiaba-bar-ater-p2",name:"St. John Parish",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/atiaba-bar-ater-p2/600/300",priest:{name:"Rev. Stephen Mabor Deng",img:"https://picsum.photos/seed/atiaba-bar-ater-p2-pr/200/200"},mu:"Mrs. Nyanut Deng Kuol",laity:"Mr. Deng Ajang Malual",youth:"Mr. Arol Deng Kuol"},
+    {id:"atiaba-bar-ater-p3",name:"Holy Trinity Parish",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/atiaba-bar-ater-p3/600/300",priest:{name:"Rev. Philip Atem Wol",img:"https://picsum.photos/seed/atiaba-bar-ater-p3-pr/200/200"},mu:"Mrs. Adut Ajang Atem",laity:"Mr. Atem Nhial Garang",youth:"Mr. Mawien Ajang Ring"}
+  ]},
+  {id:"atiaba-ajenyjeny",name:"Ajenyjeny Deanery",theme:"Standing Firm in Faith",vs:{t:"Stand firm in the faith, be courageous, be strong.",r:"1 Corinthians 16:13"},img:"https://picsum.photos/seed/atiaba-ajenyjeny/800/400",rd:{name:"Rev. Susan Ajak Mading",img:"https://picsum.photos/seed/atiaba-ajenyjeny-rd/200/200"},mu:"Mrs. Mary Akuol Deng",laity:"Mr. Ring Mabor Atem",youth:"Mr. Atem Nhial Wol",
+  parishes:[
+    {id:"atiaba-ajenyjeny-p1",name:"St. Mark Parish",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/atiaba-ajenyjeny-p1/600/300",priest:{name:"Rev. Moses Arol Mawien",img:"https://picsum.photos/seed/atiaba-ajenyjeny-p1-pr/200/200"},mu:"Mrs. Achol Garang Deng",laity:"Mr. Wol Ajang Ring",youth:"Mr. Mawien Atem Kuol"},
+    {id:"atiaba-ajenyjeny-p2",name:"St. John Parish",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/atiaba-ajenyjeny-p2/600/300",priest:{name:"Rev. Peter Malual Akech",img:"https://picsum.photos/seed/atiaba-ajenyjeny-p2-pr/200/200"},mu:"Mrs. Nyalual Ring Atem",laity:"Mr. Deng Arol Mabor",youth:"Mr. Garang Wol Ajang"},
+    {id:"atiaba-ajenyjeny-p3",name:"Holy Trinity Parish",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/atiaba-ajenyjeny-p3/600/300",priest:{name:"Rev. John Atem Deng",img:"https://picsum.photos/seed/atiaba-ajenyjeny-p3-pr/200/200"},mu:"Mrs. Adut Kuol Garang",laity:"Mr. Nhial Arol Ring",youth:"Mr. Ajang Mawien Atem"}
+  ]},
+  {id:"atiaba-madol",name:"Madol Deanery",theme:"Bound in Love",vs:{t:"Let all that you do be done in love.",r:"1 Corinthians 16:14"},img:"https://picsum.photos/seed/atiaba-madol/800/400",rd:{name:"Rev. Dabora Yar Ater",img:"https://picsum.photos/seed/atiaba-madol-rd/200/200"},mu:"Mrs. Grace Achai Deng",laity:"Mr. Atem Garang Kuol",youth:"Mr. Ring Wol Ajang",
+  parishes:[
+    {id:"atiaba-madol-p1",name:"St. Mark Parish",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/atiaba-madol-p1/600/300",priest:{name:"Rev. Abraham Ajang Mabor",img:"https://picsum.photos/seed/atiaba-madol-p1-pr/200/200"},mu:"Mrs. Sarah Akuol Atem",laity:"Mr. Kuol Ring Deng",youth:"Mr. Mawien Nhial Garang"},
+    {id:"atiaba-madol-p2",name:"St. John Parish",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/atiaba-madol-p2/600/300",priest:{name:"Rev. Thomas Deng Arol",img:"https://picsum.photos/seed/atiaba-madol-p2-pr/200/200"},mu:"Mrs. Achol Wol Atem",laity:"Mr. Garang Kuol Ring",youth:"Mr. Arol Ajang Nhial"},
+    {id:"atiaba-madol-p3",name:"Holy Trinity Parish",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/atiaba-madol-p3/600/300",priest:{name:"Rev. Simon Atem Kuol",img:"https://picsum.photos/seed/atiaba-madol-p3-pr/200/200"},mu:"Mrs. Nyanut Arol Deng",laity:"Mr. Ajang Garang Wol",youth:"Mr. Deng Ring Mawien"}
+  ]}
+]},
 
-// ========== NAVIGATION ==========
+/* ==================== 6. KARIC ==================== */
+{id:"karic",name:"Karic Archdeaconry",theme:"Fountain of Living Water",vs:{t:"Whoever drinks of the water that I will give him will never be thirsty again.",r:"John 4:14"},img:"https://picsum.photos/seed/karic-ch/800/400",arch:{name:"Ven. Rebecca Ajak Kachuol",img:"https://picsum.photos/seed/ven-nhial-a/200/200"},mu:"Mrs. Adut Wol Kuol",laity:"Mr. Garang Ajang Deng",youth:"Mr. Arol Mawien Atem",
+deaneries:[
+  {id:"karic-north",name:"Karic North Deanery",theme:"Guided by the Spirit",vs:{t:"Where the Spirit of the Lord is, there is freedom.",r:"2 Corinthians 3:17"},img:"https://picsum.photos/seed/karic-north/800/400",rd:{name:"Rev. Wol Garang Deng",img:"https://picsum.photos/seed/karic-north-rd/200/200"},mu:"Mrs. Sarah Akuol Atem",laity:"Mr. Deng Nhial Kuol",youth:"Mr. Mawien Ring Ajang",
+  parishes:[
+    {id:"karic-north-p1",name:"St. Mark Parish - North",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/karic-north-p1/600/300",priest:{name:"Rev. Atem Mawien Arol",img:"https://picsum.photos/seed/karic-north-p1-pr/200/200"},mu:"Mrs. Nyalual Deng Wol",laity:"Mr. Kuol Garang Atem",youth:"Mr. Ring Ajang Nhial"},
+    {id:"karic-north-p2",name:"St. John Parish - North",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/karic-north-p2/600/300",priest:{name:"Rev. Deng Atem Nhial",img:"https://picsum.photos/seed/karic-north-p2-pr/200/200"},mu:"Mrs. Achol Arol Garang",laity:"Mr. Ajang Wol Deng",youth:"Mr. Atem Kuol Ring"},
+    {id:"karic-north-p3",name:"Holy Trinity Parish - North",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/karic-north-p3/600/300",priest:{name:"Rev. Garang Ring Wol",img:"https://picsum.photos/seed/karic-north-p3-pr/200/200"},mu:"Mrs. Abuk Nhial Atem",laity:"Mr. Wol Mawien Kuol",youth:"Mr. Nhial Deng Arol"}
+  ]},
+  {id:"karic-central",name:"Karic Central Deanery",theme:"Standing Firm in Faith",vs:{t:"Stand firm in the faith, be courageous, be strong.",r:"1 Corinthians 16:13"},img:"https://picsum.photos/seed/karic-central/800/400",rd:{name:"Rev. Nhial Ring Atem",img:"https://picsum.photos/seed/karic-central-rd/200/200"},mu:"Mrs. Grace Achai Wol",laity:"Mr. Arol Kuol Ajang",youth:"Mr. Deng Nhial Mawien",
+  parishes:[
+    {id:"karic-central-p1",name:"St. Mark Parish - Central",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/karic-central-p1/600/300",priest:{name:"Rev. Mawien Arol Deng",img:"https://picsum.photos/seed/karic-central-p1-pr/200/200"},mu:"Mrs. Adut Atem Nhial",laity:"Mr. Ajang Garang Wol",youth:"Mr. Kuol Ring Atem"},
+    {id:"karic-central-p2",name:"St. John Parish - Central",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/karic-central-p2/600/300",priest:{name:"Rev. Nhial Deng Atem",img:"https://picsum.photos/seed/karic-central-p2-pr/200/200"},mu:"Mrs. Mary Akuol Ajang",laity:"Mr. Garang Mawien Arol",youth:"Mr. Arol Atem Kuol"},
+    {id:"karic-central-p3",name:"Holy Trinity Parish - Central",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/karic-central-p3/600/300",priest:{name:"Rev. Ajang Wol Kuol",img:"https://picsum.photos/seed/karic-central-p3-pr/200/200"},mu:"Mrs. Achol Deng Ring",laity:"Mr. Wol Atem Garang",youth:"Mr. Ring Mawien Deng"}
+  ]},
+  {id:"karic-south",name:"Karic South Deanery",theme:"Bound in Love",vs:{t:"Let all that you do be done in love.",r:"1 Corinthians 16:14"},img:"https://picsum.photos/seed/karic-south/800/400",rd:{name:"Rev. Ring Atem Garang",img:"https://picsum.photos/seed/karic-south-rd/200/200"},mu:"Mrs. Nyanut Ajang Garang",laity:"Mr. Kuol Wol Deng",youth:"Mr. Atem Ring Nhial",
+  parishes:[
+    {id:"karic-south-p1",name:"St. Mark Parish - South",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/karic-south-p1/600/300",priest:{name:"Rev. Wol Nhial Garang",img:"https://picsum.photos/seed/karic-south-p1-pr/200/200"},mu:"Mrs. Sarah Adut Kuol",laity:"Mr. Deng Arol Wol",youth:"Mr. Mawien Atem Ajang"},
+    {id:"karic-south-p2",name:"St. John Parish - South",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/karic-south-p2/600/300",priest:{name:"Rev. Kuol Garang Nhial",img:"https://picsum.photos/seed/karic-south-p2-pr/200/200"},mu:"Mrs. Abuk Ring Atem",laity:"Mr. Garang Deng Arol",youth:"Mr. Ajang Mawien Wol"},
+    {id:"karic-south-p3",name:"Holy Trinity Parish - South",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/karic-south-p3/600/300",priest:{name:"Rev. Deng Wol Ring",img:"https://picsum.photos/seed/karic-south-p3-pr/200/200"},mu:"Mrs. Grace Achai Atem",laity:"Mr. Nhial Arol Kuol",youth:"Mr. Ring Garang Atem"}
+  ]}
+]},
+
+/* ==================== 7. MABORDUANG ==================== */
+{id:"maborduang",name:"Maborduang Archdeaconry",theme:"Fortress of Faith",vs:{t:"The Lord is my rock, my fortress, and my deliverer.",r:"Psalm 18:2"},img:"https://picsum.photos/seed/mabord-ch/800/400",arch:{name:"Ven. David Malath Lueth",img:"https://picsum.photos/seed/ven-garang-k/200/200"},mu:"Mrs. Achol Arol Deng",laity:"Mr. Wol Ring Nhial",youth:"Mr. Atem Ajang Garang",
+deaneries:[
+  {id:"mabord-north",name:"Maborduang North Deanery",theme:"Guided by the Spirit",vs:{t:"Where the Spirit of the Lord is, there is freedom.",r:"2 Corinthians 3:17"},img:"https://picsum.photos/seed/mabord-north/800/400",rd:{name:"Rev. Arol Mawien Atem",img:"https://picsum.photos/seed/mabord-north-rd/200/200"},mu:"Mrs. Mary Akuol Ajang",laity:"Mr. Kuol Atem Ring",youth:"Mr. Deng Garang Mawien",
+  parishes:[
+    {id:"mabord-north-p1",name:"St. Mark Parish - North",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/mabord-north-p1/600/300",priest:{name:"Rev. Ring Atem Arol",img:"https://picsum.photos/seed/mabord-north-p1-pr/200/200"},mu:"Mrs. Nyanut Garang Kuol",laity:"Mr. Ajang Nhial Atem",youth:"Mr. Mawien Deng Wol"},
+    {id:"mabord-north-p2",name:"St. John Parish - North",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/mabord-north-p2/600/300",priest:{name:"Rev. Nhial Arol Garang",img:"https://picsum.photos/seed/mabord-north-p2-pr/200/200"},mu:"Mrs. Adut Wol Atem",laity:"Mr. Garang Ring Kuol",youth:"Mr. Atem Ajang Deng"},
+    {id:"mabord-north-p3",name:"Holy Trinity Parish - North",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/mabord-north-p3/600/300",priest:{name:"Rev. Atem Garang Wol",img:"https://picsum.photos/seed/mabord-north-p3-pr/200/200"},mu:"Mrs. Achol Kuol Nhial",laity:"Mr. Deng Arol Mawien",youth:"Mr. Wol Ring Atem"}
+  ]},
+  {id:"mabord-central",name:"Maborduang Central Deanery",theme:"Standing Firm in Faith",vs:{t:"Stand firm in the faith, be courageous, be strong.",r:"1 Corinthians 16:13"},img:"https://picsum.photos/seed/mabord-central/800/400",rd:{name:"Rev. Ajang Atem Deng",img:"https://picsum.photos/seed/mabord-central-rd/200/200"},mu:"Mrs. Adut Ajang Atem",laity:"Mr. Garang Deng Kuol",youth:"Mr. Ring Atem Wol",
+  parishes:[
+    {id:"mabord-central-p1",name:"St. Mark Parish - Central",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/mabord-central-p1/600/300",priest:{name:"Rev. Wol Mawien Ring",img:"https://picsum.photos/seed/mabord-central-p1-pr/200/200"},mu:"Mrs. Grace Achai Ajang",laity:"Mr. Kuol Deng Atem",youth:"Mr. Arol Garang Ajang"},
+    {id:"mabord-central-p2",name:"St. John Parish - Central",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/mabord-central-p2/600/300",priest:{name:"Rev. Garang Atem Kuol",img:"https://picsum.photos/seed/mabord-central-p2-pr/200/200"},mu:"Mrs. Abuk Arol Deng",laity:"Mr. Nhial Ajang Wol",youth:"Mr. Deng Ring Garang"},
+    {id:"mabord-central-p3",name:"Holy Trinity Parish - Central",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/mabord-central-p3/600/300",priest:{name:"Rev. Ajang Kuol Wol",img:"https://picsum.photos/seed/mabord-central-p3-pr/200/200"},mu:"Mrs. Nyalual Atem Nhial",laity:"Mr. Atem Garang Deng",youth:"Mr. Mawien Arol Atem"}
+  ]},
+  {id:"mabord-south",name:"Maborduang South Deanery",theme:"Bound in Love",vs:{t:"Let all that you do be done in love.",r:"1 Corinthians 16:14"},img:"https://picsum.photos/seed/mabord-south/800/400",rd:{name:"Rev. Deng Wol Garang",img:"https://picsum.photos/seed/mabord-south-rd/200/200"},mu:"Mrs. Sarah Akuol Arol",laity:"Mr. Ring Atem Nhial",youth:"Mr. Ajang Kuol Deng",
+  parishes:[
+    {id:"mabord-south-p1",name:"St. Mark Parish - South",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/mabord-south-p1/600/300",priest:{name:"Rev. Kuol Nhial Deng",img:"https://picsum.photos/seed/mabord-south-p1-pr/200/200"},mu:"Mrs. Achol Wol Arol",laity:"Mr. Wol Atem Garang",youth:"Mr. Ajang Deng Atem"},
+    {id:"mabord-south-p2",name:"St. John Parish - South",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/mabord-south-p2/600/300",priest:{name:"Rev. Ring Deng Atem",img:"https://picsum.photos/seed/mabord-south-p2-pr/200/200"},mu:"Mrs. Mary Akuol Garang",laity:"Mr. Arol Ajang Kuol",youth:"Mr. Deng Wol Nhial"},
+    {id:"mabord-south-p3",name:"Holy Trinity Parish - South",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/mabord-south-p3/600/300",priest:{name:"Rev. Atem Wol Ring",img:"https://picsum.photos/seed/mabord-south-p3-pr/200/200"},mu:"Mrs. Grace Achai Kuol",laity:"Mr. Nhial Arol Garang",youth:"Mr. Garang Mawien Ajang"}
+  ]}
+]},
+
+/* ==================== 8. BILING ==================== */
+{id:"biling",name:"Biling Archdeaconry",theme:"Garden of Grace",vs:{t:"I am the vine; you are the branches. Whoever abides in me bears much fruit.",r:"John 15:5"},img:"https://picsum.photos/seed/biling-ch/800/400",arch:{name:"Ven. Gabriel Mabor Majak",img:"https://picsum.photos/seed/ven-ring-at/200/200"},mu:"Mrs. Adut Garang Kuol",laity:"Mr. Wol Deng Arol",youth:"Mr. Atem Mawien Ajang",
+deaneries:[
+  {id:"biling-north",name:"Biling North Deanery",theme:"Guided by the Spirit",vs:{t:"Where the Spirit of the Lord is, there is freedom.",r:"2 Corinthians 3:17"},img:"https://picsum.photos/seed/biling-north/800/400",rd:{name:"Rev. Mawien Ring Arol",img:"https://picsum.photos/seed/biling-north-rd/200/200"},mu:"Mrs. Nyanut Atem Arol",laity:"Mr. Ajang Garang Kuol",youth:"Mr. Kuol Ring Atem",
+  parishes:[
+    {id:"biling-north-p1",name:"St. Mark Parish - North",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/biling-north-p1/600/300",priest:{name:"Rev. Arol Atem Deng",img:"https://picsum.photos/seed/biling-north-p1-pr/200/200"},mu:"Mrs. Achol Nhial Ajang",laity:"Mr. Mawien Wol Garang",youth:"Mr. Ring Kuol Deng"},
+    {id:"biling-north-p2",name:"St. John Parish - North",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/biling-north-p2/600/300",priest:{name:"Rev. Nhial Garang Atem",img:"https://picsum.photos/seed/biling-north-p2-pr/200/200"},mu:"Mrs. Sarah Adut Ring",laity:"Mr. Garang Arol Wol",youth:"Mr. Atem Ajang Kuol"},
+    {id:"biling-north-p3",name:"Holy Trinity Parish - North",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/biling-north-p3/600/300",priest:{name:"Rev. Garang Wol Atem",img:"https://picsum.photos/seed/biling-north-p3-pr/200/200"},mu:"Mrs. Abuk Deng Kuol",laity:"Mr. Wol Arol Nhial",youth:"Mr. Deng Atem Mawien"}
+  ]},
+  {id:"biling-central",name:"Biling Central Deanery",theme:"Standing Firm in Faith",vs:{t:"Stand firm in the faith, be courageous, be strong.",r:"1 Corinthians 16:13"},img:"https://picsum.photos/seed/biling-central/800/400",rd:{name:"Rev. Garang Deng Wol",img:"https://picsum.photos/seed/biling-central-rd/200/200"},mu:"Mrs. Grace Achai Arol",laity:"Mr. Deng Ajang Atem",youth:"Mr. Mawien Garang Ring",
+  parishes:[
+    {id:"biling-central-p1",name:"St. Mark Parish - Central",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/biling-central-p1/600/300",priest:{name:"Rev. Wol Atem Garang",img:"https://picsum.photos/seed/biling-central-p1-pr/200/200"},mu:"Mrs. Achol Ajang Nhial",laity:"Mr. Kuol Deng Arol",youth:"Mr. Arol Atem Wol"},
+    {id:"biling-central-p2",name:"St. John Parish - Central",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/biling-central-p2/600/300",priest:{name:"Rev. Ajang Deng Atem",img:"https://picsum.photos/seed/biling-central-p2-pr/200/200"},mu:"Mrs. Nyalual Mawien Atem",laity:"Mr. Ring Wol Garang",youth:"Mr. Garang Nhial Arol"},
+    {id:"biling-central-p3",name:"Holy Trinity Parish - Central",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/biling-central-p3/600/300",priest:{name:"Rev. Kuol Ring Atem",img:"https://picsum.photos/seed/biling-central-p3-pr/200/200"},mu:"Mrs. Mary Akuol Garang",laity:"Mr. Nhial Arol Ajang",youth:"Mr. Atem Wol Deng"}
+  ]},
+  {id:"biling-south",name:"Biling South Deanery",theme:"Bound in Love",vs:{t:"Let all that you do be done in love.",r:"1 Corinthians 16:14"},img:"https://picsum.photos/seed/biling-south/800/400",rd:{name:"Rev. Atem Wol Kuol",img:"https://picsum.photos/seed/biling-south-rd/200/200"},mu:"Mrs. Adut Arol Ajang",laity:"Mr. Wol Kuol Ring",youth:"Mr. Deng Atem Nhial",
+  parishes:[
+    {id:"biling-south-p1",name:"St. Mark Parish - South",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/biling-south-p1/600/300",priest:{name:"Rev. Mawien Atem Arol",img:"https://picsum.photos/seed/biling-south-p1-pr/200/200"},mu:"Mrs. Sarah Akuol Nhial",laity:"Mr. Ajang Wol Garang",youth:"Mr. Ring Atem Ajang"},
+    {id:"biling-south-p2",name:"St. John Parish - South",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/biling-south-p2/600/300",priest:{name:"Rev. Ring Nhial Garang",img:"https://picsum.photos/seed/biling-south-p2-pr/200/200"},mu:"Mrs. Achol Atem Wol",laity:"Mr. Arol Deng Kuol",youth:"Mr. Atem Garang Arol"},
+    {id:"biling-south-p3",name:"Holy Trinity Parish - South",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/biling-south-p3/600/300",priest:{name:"Rev. Deng Mawien Ring",img:"https://picsum.photos/seed/biling-south-p3-pr/200/200"},mu:"Mrs. Grace Achai Wol",laity:"Mr. Nhial Atem Arol",youth:"Mr. Kuol Ajang Deng"}
+  ]}
+]},
+
+/* ==================== 9. DHIAUKUEI ==================== */
+{id:"dhiaukuei",name:"Dhiaukuei Archdeaconry",theme:"Pillar of Truth",vs:{t:"The church of the living God, a pillar and buttress of the truth.",r:"1 Timothy 3:15"},img:"https://picsum.photos/seed/dhiau-ch/800/400",arch:{name:"Ven. Samuel Mapuor Ngaak",img:"https://picsum.photos/seed/ven-wol-d/200/200"},mu:"Mrs. Nyanut Ajang Atem",laity:"Mr. Kuol Mawien Arol",youth:"Mr. Ring Atem Deng",
+deaneries:[
+  {id:"dhiau-north",name:"Dhiaukuei North Deanery",theme:"Guided by the Spirit",vs:{t:"Where the Spirit of the Lord is, there is freedom.",r:"2 Corinthians 3:17"},img:"https://picsum.photos/seed/dhiau-north/800/400",rd:{name:"Rev. Nhial Atem Garang",img:"https://picsum.photos/seed/dhiau-north-rd/200/200"},mu:"Mrs. Adut Ring Arol",laity:"Mr. Arol Ajang Wol",youth:"Mr. Deng Nhial Garang",
+  parishes:[
+    {id:"dhiau-north-p1",name:"St. Mark Parish - North",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/dhiau-north-p1/600/300",priest:{name:"Rev. Atem Arol Ajang",img:"https://picsum.photos/seed/dhiau-north-p1-pr/200/200"},mu:"Mrs. Achol Deng Nhial",laity:"Mr. Wol Atem Garang",youth:"Mr. Garang Kuol Ring"},
+    {id:"dhiau-north-p2",name:"St. John Parish - North",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/dhiau-north-p2/600/300",priest:{name:"Rev. Nhial Wol Deng",img:"https://picsum.photos/seed/dhiau-north-p2-pr/200/200"},mu:"Mrs. Mary Akuol Arol",laity:"Mr. Arol Garang Atem",youth:"Mr. Mawien Ajang Kuol"},
+    {id:"dhiau-north-p3",name:"Holy Trinity Parish - North",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/dhiau-north-p3/600/300",priest:{name:"Rev. Garang Atem Nhial",img:"https://picsum.photos/seed/dhiau-north-p3-pr/200/200"},mu:"Mrs. Abuk Ajang Kuol",laity:"Mr. Deng Wol Atem",youth:"Mr. Ring Arol Garang"}
+  ]},
+  {id:"dhiau-central",name:"Dhiaukuei Central Deanery",theme:"Standing Firm in Faith",vs:{t:"Stand firm in the faith, be courageous, be strong.",r:"1 Corinthians 16:13"},img:"https://picsum.photos/seed/dhiau-central/800/400",rd:{name:"Rev. Deng Arol Wol",img:"https://picsum.photos/seed/dhiau-central-rd/200/200"},mu:"Mrs. Grace Achai Deng",laity:"Mr. Atem Kuol Wol",youth:"Mr. Ajang Ring Nhial",
+  parishes:[
+    {id:"dhiau-central-p1",name:"St. Mark Parish - Central",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/dhiau-central-p1/600/300",priest:{name:"Rev. Deng Atem Arol",img:"https://picsum.photos/seed/dhiau-central-p1-pr/200/200"},mu:"Mrs. Nyalual Garang Atem",laity:"Mr. Wol Nhial Kuol",youth:"Mr. Atem Ajang Deng"},
+    {id:"dhiau-central-p2",name:"St. John Parish - Central",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/dhiau-central-p2/600/300",priest:{name:"Rev. Ring Wol Atem",img:"https://picsum.photos/seed/dhiau-central-p2-pr/200/200"},mu:"Mrs. Achol Atem Ajang",laity:"Mr. Garang Arol Deng",youth:"Mr. Kuol Nhial Wol"},
+    {id:"dhiau-central-p3",name:"Holy Trinity Parish - Central",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/dhiau-central-p3/600/300",priest:{name:"Rev. Atem Nhial Garang",img:"https://picsum.photos/seed/dhiau-central-p3-pr/200/200"},mu:"Mrs. Sarah Adut Wol",laity:"Mr. Nhial Deng Atem",youth:"Mr. Arol Kuol Mawien"}
+  ]},
+  {id:"dhiau-south",name:"Dhiaukuei South Deanery",theme:"Bound in Love",vs:{t:"Let all that you do be done in love.",r:"1 Corinthians 16:14"},img:"https://picsum.photos/seed/dhiau-south/800/400",rd:{name:"Rev. Ring Nhial Arol",img:"https://picsum.photos/seed/dhiau-south-rd/200/200"},mu:"Mrs. Adut Kuol Nhial",laity:"Mr. Atem Wol Ring",youth:"Mr. Deng Mawien Ajang",
+  parishes:[
+    {id:"dhiau-south-p1",name:"St. Mark Parish - South",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/dhiau-south-p1/600/300",priest:{name:"Rev. Wol Kuol Ring",img:"https://picsum.photos/seed/dhiau-south-p1-pr/200/200"},mu:"Mrs. Mary Akuol Deng",laity:"Mr. Arol Atem Garang",youth:"Mr. Mawien Arol Atem"},
+    {id:"dhiau-south-p2",name:"St. John Parish - South",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/dhiau-south-p2/600/300",priest:{name:"Rev. Kuol Atem Wol",img:"https://picsum.photos/seed/dhiau-south-p2-pr/200/200"},mu:"Mrs. Achol Garang Ring",laity:"Mr. Nhial Arol Kuol",youth:"Mr. Ring Deng Atem"},
+    {id:"dhiau-south-p3",name:"Holy Trinity Parish - South",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/dhiau-south-p3/600/300",priest:{name:"Rev. Deng Nhial Atem",img:"https://picsum.photos/seed/dhiau-south-p3-pr/200/200"},mu:"Mrs. Grace Achai Arol",laity:"Mr. Garang Wol Kuol",youth:"Mr. Atem Ajang Nhial"}
+  ]}
+]},
+
+/* ==================== 10. RAM-AJONG ==================== */
+{id:"ram-Ajong",name:"Ram-Ajong Archdeaconry",theme:"Risen with Christ",vs:{t:"If then you have been raised with Christ, seek the things that are above.",r:"Colossians 3:1"},img:"https://picsum.photos/seed/majak-ch/800/400",arch:{name:"Ven. Joseph Maker Makuach",img:"https://picsum.photos/seed/ven-atem-w/200/200"},mu:"Mrs. Sarah Akuol Ajang",laity:"Mr. Deng Arol Mawien",youth:"Mr. Ajang Nhial Ring",
+deaneries:[
+  {id:"ramajong-north",name:"Ram-Ajong North Deanery",theme:"Guided by the Spirit",vs:{t:"Where the Spirit of the Lord is, there is freedom.",r:"2 Corinthians 3:17"},img:"https://picsum.photos/seed/ramajong-north/800/400",rd:{name:"Rev. Wol Arol Garang",img:"https://picsum.photos/seed/ramajong-north-rd/200/200"},mu:"Mrs. Adut Garang Arol",laity:"Mr. Wol Kuol Atem",youth:"Mr. Kuol Deng Ajang",
+  parishes:[
+    {id:"ramajong-north-p1",name:"St. Mark Parish - North",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/ramajong-north-p1/600/300",priest:{name:"Rev. Garang Wol Nhial",img:"https://picsum.photos/seed/ramajong-north-p1-pr/200/200"},mu:"Mrs. Achol Arol Atem",laity:"Mr. Atem Deng Kuol",youth:"Mr. Ring Ajang Arol"},
+    {id:"ramajong-north-p2",name:"St. John Parish - North",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/ramajong-north-p2/600/300",priest:{name:"Rev. Arol Atem Wol",img:"https://picsum.photos/seed/ramajong-north-p2-pr/200/200"},mu:"Mrs. Nyalual Nhial Kuol",laity:"Mr. Deng Garang Ring",youth:"Mr. Mawien Atem Ajang"},
+    {id:"ramajong-north-p3",name:"Holy Trinity Parish - North",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/ramajong-north-p3/600/300",priest:{name:"Rev. Wol Garang Atem",img:"https://picsum.photos/seed/ramajong-north-p3-pr/200/200"},mu:"Mrs. Abuk Atem Arol",laity:"Mr. Ajang Kuol Nhial",youth:"Mr. Atem Ring Deng"}
+  ]},
+  {id:"ramajong-central",name:"Ram-Ajong Central Deanery",theme:"Standing Firm in Faith",vs:{t:"Stand firm in the faith, be courageous, be strong.",r:"1 Corinthians 16:13"},img:"https://picsum.photos/seed/ramajong-central/800/400",rd:{name:"Rev. Ajang Deng Garang",img:"https://picsum.photos/seed/ramajong-central-rd/200/200"},mu:"Mrs. Grace Achai Ring",laity:"Mr. Arol Nhial Deng",youth:"Mr. Kuol Atem Ajang",
+  parishes:[
+    {id:"ramajong-central-p1",name:"St. Mark Parish - Central",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/ramajong-central-p1/600/300",priest:{name:"Rev. Kuol Arol Atem",img:"https://picsum.photos/seed/ramajong-central-p1-pr/200/200"},mu:"Mrs. Achol Deng Ajang",laity:"Mr. Nhial Wol Arol",youth:"Mr. Garang Mawien Ring"},
+    {id:"ramajong-central-p2",name:"St. John Parish - Central",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/ramajong-central-p2/600/300",priest:{name:"Rev. Ajang Ring Wol",img:"https://picsum.photos/seed/ramajong-central-p2-pr/200/200"},mu:"Mrs. Sarah Adut Atem",laity:"Mr. Wol Garang Ajang",youth:"Mr. Deng Atem Arol"},
+    {id:"ramajong-central-p3",name:"Holy Trinity Parish - Central",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/ramajong-central-p3/600/300",priest:{name:"Rev. Ring Deng Atem",img:"https://picsum.photos/seed/ramajong-central-p3-pr/200/200"},mu:"Mrs. Mary Akuol Arol",laity:"Mr. Atem Kuol Nhial",youth:"Mr. Mawien Ajang Deng"}
+  ]},
+  {id:"ramajong-south",name:"Ram-Ajong South Deanery",theme:"Bound in Love",vs:{t:"Let all that you do be done in love.",r:"1 Corinthians 16:14"},img:"https://picsum.photos/seed/ramajong-south/800/400",rd:{name:"Rev. Mawien Arol Atem",img:"https://picsum.photos/seed/ramajong-south-rd/200/200"},mu:"Mrs. Adut Nhial Wol",laity:"Mr. Arol Atem Garang",youth:"Mr. Ring Mawien Kuol",
+  parishes:[
+    {id:"ramajong-south-p1",name:"St. Mark Parish - South",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/ramajong-south-p1/600/300",priest:{name:"Rev. Atem Ajang Ring",img:"https://picsum.photos/seed/ramajong-south-p1-pr/200/200"},mu:"Mrs. Nyalual Atem Arol",laity:"Mr. Deng Wol Ajang",youth:"Mr. Arol Nhial Garang"},
+    {id:"ramajong-south-p2",name:"St. John Parish - South",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/ramajong-south-p2/600/300",priest:{name:"Rev. Wol Arol Kuol",img:"https://picsum.photos/seed/ramajong-south-p2-pr/200/200"},mu:"Mrs. Achol Garang Deng",laity:"Mr. Atem Nhial Arol",youth:"Mr. Kuol Ajang Wol"},
+    {id:"ramajong-south-p3",name:"Holy Trinity Parish - South",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/ramajong-south-p3/600/300",priest:{name:"Rev. Nhial Atem Ajang",img:"https://picsum.photos/seed/ramajong-south-p3-pr/200/200"},mu:"Mrs. Grace Achai Garang",laity:"Mr. Garang Ring Atem",youth:"Mr. Deng Arol Mawien"}
+  ]}
+]},
+
+/* ==================== 11. AWACH ==================== */
+{id:"awach",name:"Awach Archdeaconry",theme:"Shield of Salvation",vs:{t:"He is a shield for all who take refuge in him.",r:"2 Samuel 22:31"},img:"https://picsum.photos/seed/new1-ch/800/400",arch:{name:"Ven. Mary Akoi Riong",img:"https://picsum.photos/seed/ven-majok-a/200/200"},mu:"Mrs. Ayen Makuei Deng",laity:"Mr. Chol Mawien Akech",youth:"Mr. Kuol Anyang Thon",
+deaneries:[
+  {id:"awach-cuk-mat",name:"Cuk-mat Deanery",theme:"Guided by the Spirit",vs:{t:"Where the Spirit of the Lord is, there is freedom.",r:"2 Corinthians 3:17"},img:"https://picsum.photos/seed/awach-cuk-mat/800/400",rd:{name:"Matthew Makur Manyang",img:"https://picsum.photos/seed/awach-cuk-mat-rd/200/200"},mu:"Mrs. Achol Atem Mayen",laity:"Mr. Abraham Ajang Mabor",youth:"Mr. Daniel Atem Nhial",
+  parishes:[
+    {id:"awach-cuk-mat-p1",name:"St. Mark Parish",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/awach-cuk-mat-p1/600/300",priest:{name:"Rev. Daniel Arol Nhial",img:"https://picsum.photos/seed/awach-cuk-mat-p1-pr/200/200"},mu:"Mrs. Abuk Ring Atem",laity:"Mr. Wol Atem Mawien",youth:"Mr. Garang Ring Atem"},
+    {id:"awach-cuk-mat-p2",name:"St. John Parish",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/awach-cuk-mat-p2/600/300",priest:{name:"Rev. Stephen Mabor Deng",img:"https://picsum.photos/seed/awach-cuk-mat-p2-pr/200/200"},mu:"Mrs. Nyanut Deng Kuol",laity:"Mr. Deng Ajang Malual",youth:"Mr. Arol Deng Kuol"},
+    {id:"awach-cuk-mat-p3",name:"Holy Trinity Parish",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/awach-cuk-mat-p3/600/300",priest:{name:"Rev. Philip Atem Wol",img:"https://picsum.photos/seed/awach-cuk-mat-p3-pr/200/200"},mu:"Mrs. Adut Ajang Atem",laity:"Mr. Atem Nhial Garang",youth:"Mr. Mawien Ajang Ring"}
+  ]},
+  {id:"awach-piath-egam",name:"Piath-egam Deanery",theme:"Standing Firm in Faith",vs:{t:"Stand firm in the faith, be courageous, be strong.",r:"1 Corinthians 16:13"},img:"https://picsum.photos/seed/awach-piath-egam/800/400",rd:{name:"Mary Ayen Akhol",img:"https://picsum.photos/seed/awach-piath-egam-rd/200/200"},mu:"Mrs. Mary Akuol Deng",laity:"Mr. Ring Mabor Atem",youth:"Mr. Atem Nhial Wol",
+  parishes:[
+    {id:"awach-piath-egam-p1",name:"St. Mark Parish",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/awach-piath-egam-p1/600/300",priest:{name:"Rev. Moses Arol Mawien",img:"https://picsum.photos/seed/awach-piath-egam-p1-pr/200/200"},mu:"Mrs. Achol Garang Deng",laity:"Mr. Wol Ajang Ring",youth:"Mr. Mawien Atem Kuol"},
+    {id:"awach-piath-egam-p2",name:"St. John Parish",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/awach-piath-egam-p2/600/300",priest:{name:"Rev. Peter Malual Akech",img:"https://picsum.photos/seed/awach-piath-egam-p2-pr/200/200"},mu:"Mrs. Nyalual Ring Atem",laity:"Mr. Deng Arol Mabor",youth:"Mr. Garang Wol Ajang"},
+    {id:"awach-piath-egam-p3",name:"Holy Trinity Parish",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/awach-piath-egam-p3/600/300",priest:{name:"Rev. John Atem Deng",img:"https://picsum.photos/seed/awach-piath-egam-p3-pr/200/200"},mu:"Mrs. Adut Kuol Garang",laity:"Mr. Nhial Arol Ring",youth:"Mr. Ajang Mawien Atem"}
+  ]},
+  {id:"awach-aleech",name:"Aleech Deanery",theme:"Bound in Love",vs:{t:"Let all that you do be done in love.",r:"1 Corinthians 16:14"},img:"https://picsum.photos/seed/awach-aleech/800/400",rd:{name:"Abraham Mabor Dhuol",img:"https://picsum.photos/seed/awach-aleech-rd/200/200"},mu:"Mrs. Grace Achai Deng",laity:"Mr. Atem Garang Kuol",youth:"Mr. Ring Wol Ajang",
+  parishes:[
+    {id:"awach-aleech-p1",name:"St. Mark Parish",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/awach-aleech-p1/600/300",priest:{name:"Rev. Abraham Ajang Mabor",img:"https://picsum.photos/seed/awach-aleech-p1-pr/200/200"},mu:"Mrs. Sarah Akuol Atem",laity:"Mr. Kuol Ring Deng",youth:"Mr. Mawien Nhial Garang"},
+    {id:"awach-aleech-p2",name:"St. John Parish",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/awach-aleech-p2/600/300",priest:{name:"Rev. Thomas Deng Arol",img:"https://picsum.photos/seed/awach-aleech-p2-pr/200/200"},mu:"Mrs. Achol Wol Atem",laity:"Mr. Garang Kuol Ring",youth:"Mr. Arol Ajang Nhial"},
+    {id:"awach-aleech-p3",name:"Holy Trinity Parish",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/awach-aleech-p3/600/300",priest:{name:"Rev. Simon Atem Kuol",img:"https://picsum.photos/seed/awach-aleech-p3-pr/200/200"},mu:"Mrs. Nyanut Arol Deng",laity:"Mr. Ajang Garang Wol",youth:"Mr. Deng Ring Mawien"}
+  ]}
+]},
+
+/* ==================== 12. MOU-KEER ==================== */
+{id:"mou-keer",name:"Mou-keer Archdeaconry",theme:"Harbor of Healing",vs:{t:"He heals the brokenhearted and binds up their wounds.",r:"Psalm 147:3"},img:"https://picsum.photos/seed/new2-ch/800/400",arch:{name:"Ven. Mary Nyanador Ater",img:"https://picsum.photos/seed/ven-akol-t/200/200"},mu:"Mrs. Abuk Deng Akuol",laity:"Mr. Majok Kuol Atem",youth:"Mr. Thon Ring Aguer",
+deaneries:[
+  {id:"moukeer-north",name:"Mou-keer North Deanery",theme:"Guided by the Spirit",vs:{t:"Where the Spirit of the Lord is, there is freedom.",r:"2 Corinthians 3:17"},img:"https://picsum.photos/seed/moukeer-north/800/400",rd:{name:"Rev. Kuol Atem Ring",img:"https://picsum.photos/seed/moukeer-north-rd/200/200"},mu:"Mrs. Achol Atem Mayen",laity:"Mr. Abraham Ajang Mabor",youth:"Mr. Daniel Atem Nhial",
+  parishes:[
+    {id:"moukeer-north-p1",name:"St. Mark Parish - North",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/moukeer-north-p1/600/300",priest:{name:"Rev. Atem Mawien Arol",img:"https://picsum.photos/seed/moukeer-north-p1-pr/200/200"},mu:"Mrs. Nyalual Deng Wol",laity:"Mr. Kuol Garang Atem",youth:"Mr. Ring Ajang Nhial"},
+    {id:"moukeer-north-p2",name:"St. John Parish - North",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/moukeer-north-p2/600/300",priest:{name:"Rev. Deng Atem Nhial",img:"https://picsum.photos/seed/moukeer-north-p2-pr/200/200"},mu:"Mrs. Achol Arol Garang",laity:"Mr. Ajang Wol Deng",youth:"Mr. Atem Kuol Ring"},
+    {id:"moukeer-north-p3",name:"Holy Trinity Parish - North",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/moukeer-north-p3/600/300",priest:{name:"Rev. Garang Ring Wol",img:"https://picsum.photos/seed/moukeer-north-p3-pr/200/200"},mu:"Mrs. Abuk Nhial Atem",laity:"Mr. Wol Mawien Kuol",youth:"Mr. Nhial Deng Arol"}
+  ]},
+  {id:"moukeer-central",name:"Mou-keer Central Deanery",theme:"Standing Firm in Faith",vs:{t:"Stand firm in the faith, be courageous, be strong.",r:"1 Corinthians 16:13"},img:"https://picsum.photos/seed/moukeer-central/800/400",rd:{name:"Rev. Arol Deng Wol",img:"https://picsum.photos/seed/moukeer-central-rd/200/200"},mu:"Mrs. Grace Achai Wol",laity:"Mr. Arol Kuol Ajang",youth:"Mr. Deng Nhial Mawien",
+  parishes:[
+    {id:"moukeer-central-p1",name:"St. Mark Parish - Central",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/moukeer-central-p1/600/300",priest:{name:"Rev. Mawien Arol Deng",img:"https://picsum.photos/seed/moukeer-central-p1-pr/200/200"},mu:"Mrs. Adut Atem Nhial",laity:"Mr. Ajang Garang Wol",youth:"Mr. Kuol Ring Atem"},
+    {id:"moukeer-central-p2",name:"St. John Parish - Central",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/moukeer-central-p2/600/300",priest:{name:"Rev. Nhial Deng Atem",img:"https://picsum.photos/seed/moukeer-central-p2-pr/200/200"},mu:"Mrs. Mary Akuol Ajang",laity:"Mr. Garang Mawien Arol",youth:"Mr. Arol Atem Kuol"},
+    {id:"moukeer-central-p3",name:"Holy Trinity Parish - Central",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/moukeer-central-p3/600/300",priest:{name:"Rev. Ajang Wol Kuol",img:"https://picsum.photos/seed/moukeer-central-p3-pr/200/200"},mu:"Mrs. Achol Deng Ring",laity:"Mr. Wol Atem Garang",youth:"Mr. Ring Mawien Deng"}
+  ]},
+  {id:"moukeer-south",name:"Mou-keer South Deanery",theme:"Bound in Love",vs:{t:"Let all that you do be done in love.",r:"1 Corinthians 16:14"},img:"https://picsum.photos/seed/moukeer-south/800/400",rd:{name:"Rev. Garang Nhial Atem",img:"https://picsum.photos/seed/moukeer-south-rd/200/200"},mu:"Mrs. Nyanut Ajang Garang",laity:"Mr. Kuol Wol Deng",youth:"Mr. Atem Ring Nhial",
+  parishes:[
+    {id:"moukeer-south-p1",name:"St. Mark Parish - South",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/moukeer-south-p1/600/300",priest:{name:"Rev. Wol Nhial Garang",img:"https://picsum.photos/seed/moukeer-south-p1-pr/200/200"},mu:"Mrs. Sarah Adut Kuol",laity:"Mr. Deng Arol Wol",youth:"Mr. Mawien Atem Ajang"},
+    {id:"moukeer-south-p2",name:"St. John Parish - South",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/moukeer-south-p2/600/300",priest:{name:"Rev. Kuol Garang Nhial",img:"https://picsum.photos/seed/moukeer-south-p2-pr/200/200"},mu:"Mrs. Abuk Ring Atem",laity:"Mr. Garang Deng Arol",youth:"Mr. Ajang Mawien Wol"},
+    {id:"moukeer-south-p3",name:"Holy Trinity Parish - South",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/moukeer-south-p3/600/300",priest:{name:"Rev. Deng Wol Ring",img:"https://picsum.photos/seed/moukeer-south-p3-pr/200/200"},mu:"Mrs. Grace Achai Atem",laity:"Mr. Nhial Arol Kuol",youth:"Mr. Ring Garang Atem"}
+  ]}
+]},
+
+/* ==================== 13. PAGANG (1 DEANERY) ==================== */
+{id:"pagang",name:"Pagang Archdeaconry",theme:"Voice in the Wilderness",vs:{t:"Prepare the way of the Lord; make his paths straight.",r:"Mark 1:3"},img:"https://picsum.photos/seed/new3-ch/800/400",arch:{name:"Ven. Abenego Mayol Akech",img:"https://picsum.photos/seed/ven-alier-m/200/200"},mu:"Mrs. Nyibol Arol Malual",laity:"Mr. Akech Nhial Wol",youth:"Mr. Malual Deng Atem",
+deaneries:[
+  {id:"pagang-rap-engei",name:"Rap-engei Deanery",theme:"Preparing the Way",vs:{t:"Prepare the way of the Lord; make his paths straight.",r:"Mark 1:3"},img:"https://picsum.photos/seed/pagang-rap-engei/800/400",rd:{name:"Zacharial Marial Jongeth",img:"https://picsum.photos/seed/pagang-rap-engei-rd/200/200"},mu:"Mrs. Achol Atem Mayen",laity:"Mr. Abraham Ajang Mabor",youth:"Mr. Daniel Atem Nhial",
+  parishes:[
+    {id:"pagang-rap-engei-p1",name:"St. Mark Parish",theme:"Proclaiming the Good News",vs:{t:"Go into all the world and preach the gospel.",r:"Mark 16:15"},img:"https://picsum.photos/seed/pagang-rap-engei-p1/600/300",priest:{name:"Rev. Daniel Arol Nhial",img:"https://picsum.photos/seed/pagang-rap-engei-p1-pr/200/200"},mu:"Mrs. Abuk Ring Atem",laity:"Mr. Wol Atem Mawien",youth:"Mr. Garang Ring Atem"},
+    {id:"pagang-rap-engei-p2",name:"St. John Parish",theme:"Living in God's Love",vs:{t:"Beloved, let us love one another.",r:"1 John 4:7"},img:"https://picsum.photos/seed/pagang-rap-engei-p2/600/300",priest:{name:"Rev. Stephen Mabor Deng",img:"https://picsum.photos/seed/pagang-rap-engei-p2-pr/200/200"},mu:"Mrs. Nyanut Deng Kuol",laity:"Mr. Deng Ajang Malual",youth:"Mr. Arol Deng Kuol"},
+    {id:"pagang-rap-engei-p3",name:"Holy Trinity Parish",theme:"United in the Trinity",vs:{t:"The grace of the Lord Jesus Christ be with you all.",r:"2 Corinthians 13:14"},img:"https://picsum.photos/seed/pagang-rap-engei-p3/600/300",priest:{name:"Rev. Philip Atem Wol",img:"https://picsum.photos/seed/pagang-rap-engei-p3-pr/200/200"},mu:"Mrs. Adut Ajang Atem",laity:"Mr. Atem Nhial Garang",youth:"Mr. Mawien Ajang Ring"}
+  ]}
+]}
+
+]; /* END OF A ARRAY */
+
+/* ================================================================
+   HELPERS & LOOKUPS
+   ================================================================ */
+function gA(id){return A.find(function(a){return a.id===id})}
+function gD(ai,di){var a=gA(ai);return a?a.deaneries.find(function(d){return d.id===di}):null}
+function gP(ai,di,pi){var d=gD(ai,di);return d?d.parishes.find(function(p){return p.id===pi}):null}
+function lc(img,name,role){return '<div class="lp"><img src="'+img+'" alt="'+name+'" onerror="this.src=\'https://picsum.photos/seed/'+encodeURIComponent(name)+'/200/200\'"><div class="lpi"><h4>'+name+'</h4><div class="rl">'+role+'</div></div></div>'}
+function cv(v){return '<div class="cvrs">"'+v.t+'" — '+v.r+'</div>'}
+function toast(msg,cls){var t=document.getElementById('tst');t.textContent=msg;t.className='tst'+(cls?' '+cls:'');setTimeout(function(){t.classList.add('show')},10);setTimeout(function(){t.classList.remove('show')},3500)}
+
+/* ================================================================
+   NAVIGATION
+   ================================================================ */
 function nav(p){window.location.hash=p}
 function togMM(){document.getElementById('mm').classList.toggle('open')}
 function clMM(){document.getElementById('mm').classList.remove('open')}
-
-// Build dropdown & mobile sub
-const ddm=document.getElementById('ddm');
-const mmSub=document.getElementById('mmSub');
-A.forEach(a=>{
-  ddm.innerHTML+=`<a onclick="nav('/archdeaconry/${a.id}')">${a.name}</a>`;
-  mmSub.innerHTML+=`<a onclick="nav('/archdeaconry/${a.id}');clMM()">${a.name}</a>`;
+var ddm=document.getElementById('ddm');
+var mmSub=document.getElementById('mmSub');
+A.forEach(function(a){
+  ddm.innerHTML+='<a onclick="nav(\'/archdeaconry/'+a.id+'\')">'+a.name+'</a>';
+  mmSub.innerHTML+='<a onclick="nav(\'/archdeaconry/'+a.id+'\');clMM()">'+a.name+'</a>';
 });
+window.addEventListener('scroll',function(){document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>10)});
 
-// Navbar scroll effect
-window.addEventListener('scroll',()=>{
-  document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>10);
-});
-
-// ========== ROUTER ==========
+/* ================================================================
+   ROUTER
+   ================================================================ */
 function handleRoute(){
-  const h=(window.location.hash||'#/').slice(1);
-  const p=h.split('/').filter(Boolean);
-  const app=document.getElementById('app');
-
-  // Active nav
-  document.querySelectorAll('.nlinks a').forEach(a=>{a.classList.remove('act');const dp=a.getAttribute('data-p');if(dp&&h.includes(dp))a.classList.add('act')});
-  if(h==='/'||h==='') document.querySelector('[data-p="home"]')?.classList.add('act');
-
+  var h=(window.location.hash||'#/').slice(1);
+  var p=h.split('/').filter(Boolean);
+  var app=document.getElementById('app');
+  document.querySelectorAll('.nlinks a').forEach(function(a){a.classList.remove('act');var dp=a.getAttribute('data-p');if(dp&&h.indexOf(dp)!==-1)a.classList.add('act')});
+  if(h==='/'||h===''){var el=document.querySelector('[data-p="home"]');if(el)el.classList.add('act')}
   window.scrollTo(0,0);clMM();
-
   if(!p.length||h==='/') rHome(app);
   else if(p[0]==='about') rAbout(app);
   else if(p[0]==='archdeaconries') rAllArch(app);
   else if(p[0]==='archdeaconry'&&p[1]){
-    if(p[2]==='deanery'&&p[3]){
-      if(p[4]==='parish'&&p[5]) rParish(app,p[1],p[3],p[5]);
-      else rDeanery(app,p[1],p[3]);
-    } else rArch(app,p[1]);
+    if(p[2]==='deanery'&&p[3]){if(p[4]==='parish'&&p[5]) rParish(app,p[1],p[3],p[5]);else rDeanery(app,p[1],p[3])}
+    else rArch(app,p[1]);
   }
   else if(p[0]==='contact') rContact(app);
   else if(p[0]==='donate') rDonate(app);
   else if(p[0]==='admin') rAdmin(app,p[1]);
   else rHome(app);
-
   obsEl();
 }
-
 window.addEventListener('hashchange',handleRoute);
 window.addEventListener('load',handleRoute);
 
-// ========== OBSERVER ==========
-function obsEl(){
-  const els=document.querySelectorAll('.fu');
-  const ob=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');ob.unobserve(e.target)}})},{threshold:.1});
-  els.forEach(e=>ob.observe(e));
-}
+function obsEl(){var els=document.querySelectorAll('.fu');var ob=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('vis');ob.unobserve(e.target)}})},{threshold:.1});els.forEach(function(e){ob.observe(e)})}
 
-// ========== HOME ==========
+/* ================================================================
+   PAGE RENDERERS
+   ================================================================ */
 function rHome(app){
-  app.innerHTML=`
-  <section class="hero">
-    <div class="hero-bg"><img src="https://picsum.photos/seed/south-sudan-land/1920/1080" alt="Landscape"></div>
-    <div class="hero-ov"></div>
-    <div class="hero-c">
-      <div class="cross"><i class="fas fa-cross"></i></div>
-      <h1>Episcopal Church of <em>South Sudan</em></h1>
-      <p class="sub">Akot Diocese — Lakes State</p>
-      <p class="vrse">"For we walk by faith, not by sight." — 2 Corinthians 5:7</p>
-      <div class="hbtns">
-        <a class="btn btn-p" onclick="nav('/about')"><i class="fas fa-info-circle"></i> Learn More</a>
-        <a class="btn btn-o" onclick="nav('/archdeaconries')"><i class="fas fa-church"></i> Our Archdeaconries</a>
-      </div>
-    </div>
-  </section>
-  <div class="ctn"><div class="sbar">
-    <div class="si"><div class="n">13</div><div class="l">Archdeaconries</div></div>
-    <div class="si"><div class="n">36+</div><div class="l">Deaneries</div></div>
-    <div class="si"><div class="n">90+</div><div class="l">Parishes</div></div>
-    <div class="si"><div class="n">100+</div><div class="l">Church Leaders</div></div>
-  </div></div>
-  <section class="sec"><div class="ctn">
-    <div class="shdr fu"><h2>Our Mission</h2><div class="gl"></div><p>Proclaiming the Gospel, serving communities, and building a strong foundation of faith across Akot Diocese.</p></div>
-    <div class="g4">
-      <div class="fc fu s1"><div class="fci"><i class="fas fa-bible"></i></div><h3>Evangelism</h3><p>Spreading the Good News of Jesus Christ across Lakes State through faithful witness and outreach.</p></div>
-      <div class="fc fu s2"><div class="fci"><i class="fas fa-hands-helping"></i></div><h3>Service</h3><p>Serving the vulnerable, supporting education, and providing humanitarian assistance to those in need.</p></div>
-      <div class="fc fu s3"><div class="fci"><i class="fas fa-users"></i></div><h3>Fellowship</h3><p>Building strong Christian communities where believers grow together in faith, love, and mutual support.</p></div>
-      <div class="fc fu s4"><div class="fci"><i class="fas fa-seedling"></i></div><h3>Development</h3><p>Promoting sustainable development through education, healthcare, and economic empowerment programs.</p></div>
-    </div>
-  </div></section>
-  <section class="sec sec-a"><div class="ctn">
-    <div class="shdr fu"><h2>Our Archdeaconries</h2><div class="gl"></div><p>Explore the 13 archdeaconries that form the backbone of Akot Diocese.</p></div>
-    <div class="g3">${A.map((a,i)=>`
-      <div class="card fu s${(i%6)+1}">
-        <div class="cimg"><img src="${a.img}" alt="${a.name}" loading="lazy"><span class="cb">${a.deaneries.length} Deaneries</span></div>
-        <div class="cbod">
-          <h3>${a.name}</h3><p>Theme: ${a.theme}</p>${cv(a.vs)}
-          <div class="cftr">
-            <div class="cl"><img src="${a.arch.img}" alt="${a.arch.name}" loading="lazy"><div class="cli"><span>${a.arch.name}</span><small>Archdeacon</small></div></div>
-            <a class="btn btn-pr btn-sm" onclick="nav('/archdeaconry/${a.id}')">View</a>
-          </div>
-        </div>
-      </div>`).join('')}
-    </div>
-  </div></section>
-  <section class="sec sec-p"><div class="ctn">
-    <div class="shdr fu"><h2>Support Our Mission</h2><div class="gl"></div><p>Your generous donations help us spread the Gospel and serve communities across South Sudan.</p></div>
-    <div style="text-align:center" class="fu">
-      <a class="btn btn-p" onclick="nav('/donate')"><i class="fas fa-heart"></i> Donate Now</a>
-      <a class="btn btn-o" onclick="nav('/contact')" style="margin-left:10px"><i class="fas fa-envelope"></i> Contact Us</a>
-    </div>
-  </div></section>
-  <section class="sec"><div class="ctn">
-    <div class="shdr fu"><h2>Diocesan Leadership</h2><div class="gl"></div></div>
-    <div class="bic fu">
-      <img src="${D.bishop.img}" alt="${D.bishop.name}" loading="lazy">
-      <div class="bicb"><h3>${D.bishop.name}</h3><div class="ttl">${D.bishop.title}</div><p>${D.bishop.bio}</p>
-      <a class="btn btn-pr btn-sm" onclick="nav('/about')" style="margin-top:14px">Read More</a></div>
-    </div>
-  </div></section>`;
+  var td=0,tp=0;A.forEach(function(a){td+=a.deaneries.length;a.deaneries.forEach(function(d){tp+=d.parishes.length})});
+  app.innerHTML='<section class="hero"><div class="hero-bg"><img src="https://picsum.photos/seed/south-sudan-land/1920/1080" alt="Landscape"></div><div class="hero-ov"></div><div class="hero-c"><div class="cross"><i class="fas fa-cross"></i></div><h1>Episcopal Church of <em>South Sudan</em></h1><p class="sub">Akot Diocese — Lakes State</p><p class="vrse">"For we walk by faith, not by sight." — 2 Corinthians 5:7</p><div class="hbtns"><a class="btn btn-p" onclick="nav(\'/about\')"><i class="fas fa-info-circle"></i> Learn More</a><a class="btn btn-o" onclick="nav(\'/archdeaconries\')"><i class="fas fa-church"></i> Our Archdeaconries</a></div></div></section><div class="ctn"><div class="sbar"><div class="si"><div class="n">'+A.length+'</div><div class="l">Archdeaconries</div></div><div class="si"><div class="n">'+td+'</div><div class="l">Deaneries</div></div><div class="si"><div class="n">'+tp+'</div><div class="l">Parishes</div></div><div class="si"><div class="n">100+</div><div class="l">Church Leaders</div></div></div></div><section class="sec"><div class="ctn"><div class="shdr fu"><h2>Our Mission</h2><div class="gl"></div><p>Proclaiming the Gospel, serving communities, and building a strong foundation of faith across Akot Diocese.</p></div><div class="g4"><div class="fc fu s1"><div class="fci"><i class="fas fa-bible"></i></div><h3>Evangelism</h3><p>Spreading the Good News of Jesus Christ across Lakes State through faithful witness and outreach.</p></div><div class="fc fu s2"><div class="fci"><i class="fas fa-hands-helping"></i></div><h3>Service</h3><p>Serving the vulnerable, supporting education, and providing humanitarian assistance to those in need.</p></div><div class="fc fu s3"><div class="fci"><i class="fas fa-users"></i></div><h3>Fellowship</h3><p>Building strong Christian communities where believers grow together in faith, love, and mutual support.</p></div><div class="fc fu s4"><div class="fci"><i class="fas fa-seedling"></i></div><h3>Development</h3><p>Promoting sustainable development through education, healthcare, and economic empowerment programs.</p></div></div></div></section><section class="sec sec-a"><div class="ctn"><div class="shdr fu"><h2>Our Archdeaconries</h2><div class="gl"></div><p>Explore the '+A.length+' archdeaconries that form the backbone of Akot Diocese.</p></div><div class="g3">'+A.map(function(a,i){return '<div class="card fu s'+((i%6)+1)+'"><div class="cimg"><img src="'+a.img+'" alt="'+a.name+'" loading="lazy"><span class="cb">'+a.deaneries.length+' Deaneries</span></div><div class="cbod"><h3>'+a.name+'</h3><p>Theme: '+a.theme+'</p>'+cv(a.vs)+'<div class="cftr"><div class="cl"><img src="'+a.arch.img+'" alt="'+a.arch.name+'" loading="lazy"><div class="cli"><span>'+a.arch.name+'</span><small>Archdeacon</small></div></div><a class="btn btn-pr btn-sm" onclick="nav(\'/archdeaconry/'+a.id+'\')">View</a></div></div></div>'}).join('')+'</div></div></section><section class="sec sec-p"><div class="ctn"><div class="shdr fu"><h2>Support Our Mission</h2><div class="gl"></div><p>Your generous donations help us spread the Gospel and serve communities across South Sudan.</p></div><div style="text-align:center" class="fu"><a class="btn btn-p" onclick="nav(\'/donate\')"><i class="fas fa-heart"></i> Donate Now</a><a class="btn btn-o" onclick="nav(\'/contact\')" style="margin-left:10px"><i class="fas fa-envelope"></i> Contact Us</a></div></div></section><section class="sec"><div class="ctn"><div class="shdr fu"><h2>Diocesan Leadership</h2><div class="gl"></div></div><div class="bic fu"><img src="'+D.bishop.img+'" alt="'+D.bishop.name+'" loading="lazy"><div class="bicb"><h3>'+D.bishop.name+'</h3><div class="ttl">'+D.bishop.title+'</div><p>'+D.bishop.bio+'</p><a class="btn btn-pr btn-sm" onclick="nav(\'/about\')" style="margin-top:14px">Read More</a></div></div></div></section>';
 }
 
-// ========== ABOUT ==========
 function rAbout(app){
-  app.innerHTML=`
-  <div class="bc"><div class="ctn"><h1>About Us</h1><div class="bcl"><a onclick="nav('/')">Home</a><span class="sp">/</span><span>About Us</span></div></div></div>
-  <section class="sec"><div class="ctn">
-    <div class="g2" style="gap:36px;align-items:center">
-      <div class="fu"><div style="border-radius:16px;overflow:hidden;box-shadow:var(--sh)"><img src="https://picsum.photos/seed/akot-cathedral2/800/500" alt="Cathedral" loading="lazy"></div></div>
-      <div class="fu s2">
-        <h2 style="font-size:1.9rem;font-weight:900;color:var(--pri);margin-bottom:14px">Our History</h2>
-        <p style="color:var(--g6);line-height:1.75;margin-bottom:18px">The Episcopal Church of South Sudan – Akot Diocese was established to serve the spiritual and communal needs of the people in the greater Akot area of Lakes State. Founded in 2009, the diocese has grown from humble beginnings to become a beacon of faith, hope, and service.</p>
-        <div class="timeline" style="position:relative;padding-left:36px">
-          <div style="position:absolute;left:13px;top:0;bottom:0;width:2px;background:var(--g3)"></div>
-          ${D.history.map(h=>`<div style="position:relative;margin-bottom:26px"><div style="position:absolute;left:-27px;top:3px;width:10px;height:10px;border-radius:50%;background:var(--pri);border:2px solid var(--gold)"></div><div style="color:var(--gold-d);font-weight:600;font-size:.8rem;margin-bottom:3px">${h.y}</div><p style="font-size:.88rem;color:var(--g6)">${h.t}</p></div>`).join('')}
-        </div>
-      </div>
-    </div>
-  </div></section>
-  <section class="sec sec-a"><div class="ctn">
-    <div class="shdr fu"><h2>Current Bishop</h2><div class="gl"></div></div>
-    <div class="bic fu" style="max-width:860px;margin:0 auto">
-      <img src="${D.bishop.img}" alt="${D.bishop.name}" loading="lazy">
-      <div class="bicb"><h3>${D.bishop.name}</h3><div class="ttl">${D.bishop.title} — Akot Diocese</div><p>${D.bishop.bio}</p></div>
-    </div>
-  </div></section>
-  <section class="sec"><div class="ctn">
-    <div class="shdr fu"><h2>Previous Bishops</h2><div class="gl"></div></div>
-    <div class="g2" style="max-width:860px;margin:0 auto">
-      ${D.prevBishops.map(b=>`<div class="card fu" style="text-align:center;padding:28px"><img src="${b.img}" alt="${b.name}" style="width:110px;height:110px;border-radius:50%;object-fit:cover;margin:0 auto 14px;border:4px solid var(--gold)" loading="lazy"><h3 style="color:var(--pri)">${b.name}</h3><p style="color:var(--gold-d);font-weight:600;font-size:.88rem">${b.period}</p><p style="color:var(--g6);font-size:.85rem;margin-top:6px">${b.bio}</p></div>`).join('')}
-    </div>
-  </div></section>
-  <section class="sec sec-a"><div class="ctn">
-    <div class="shdr fu"><h2>Diocesan Leadership Team</h2><div class="gl"></div></div>
-    <div class="lg fu">
-      ${lc('https://picsum.photos/seed/chancellor-m/200/200',D.chancellor.name,D.chancellor.title)}
-      ${lc('https://picsum.photos/seed/secretary-s/200/200',D.secretary.name,D.secretary.title)}
-      ${lc('https://picsum.photos/seed/mu-reb/200/200',D.mu.name,"Head of Mother's Union")}
-      ${lc('https://picsum.photos/seed/laity-jn/200/200',D.laity.name,"Head of Laity")}
-      ${lc('https://picsum.photos/seed/youth-dn/200/200',D.youth.name,"Head of Youth")}
-    </div>
-  </div></section>
-  <section class="sec"><div class="ctn">
-    <div class="shdr fu"><h2>The 10 Archdeaconries</h2><div class="gl"></div><p>The diocese is structured into 10 archdeaconries, each led by an Archdeacon.</p></div>
-    <div class="g3">${A.map((a,i)=>`
-      <div class="card fu s${(i%6)+1}">
-        <div class="cimg"><img src="${a.img}" alt="${a.name}" loading="lazy"><span class="cb">${a.deaneries.length} Deaneries</span></div>
-        <div class="cbod"><h3>${a.name}</h3><p>${a.theme}</p>${cv(a.vs)}
-          <a class="btn btn-pr btn-sm btn-bl" onclick="nav('/archdeaconry/${a.id}')"><i class="fas fa-arrow-right"></i> Explore</a>
-        </div>
-      </div>`).join('')}
-    </div>
-  </div></section>`;
+  app.innerHTML='<div class="bc"><div class="ctn"><h1>About Us</h1><div class="bcl"><a onclick="nav(\'/\')">Home</a><span class="sp">/</span><span>About Us</span></div></div></div><section class="sec"><div class="ctn"><div class="g2" style="gap:36px;align-items:center"><div class="fu"><div style="border-radius:16px;overflow:hidden;box-shadow:var(--sh)"><img src="https://picsum.photos/seed/akot-cathedral2/800/500" alt="Cathedral" loading="lazy"></div></div><div class="fu s2"><h2 style="font-size:1.9rem;font-weight:900;color:var(--pri);margin-bottom:14px">Our History</h2><p style="color:var(--g6);line-height:1.75;margin-bottom:18px">The Episcopal Church of South Sudan – Akot Diocese was established to serve the spiritual and communal needs of the people in the greater Akot area of Lakes State. Founded in 2009, the diocese has grown from humble beginnings to become a beacon of faith, hope, and service.</p><div style="position:relative;padding-left:36px"><div style="position:absolute;left:13px;top:0;bottom:0;width:2px;background:var(--g3)"></div>'+D.history.map(function(h){return '<div style="position:relative;margin-bottom:26px"><div style="position:absolute;left:-27px;top:3px;width:10px;height:10px;border-radius:50%;background:var(--pri);border:2px solid var(--gold)"></div><div style="color:var(--gold-d);font-weight:600;font-size:.8rem;margin-bottom:3px">'+h.y+'</div><p style="font-size:.88rem;color:var(--g6)">'+h.t+'</p></div>'}).join('')+'</div></div></div></div></section><section class="sec sec-a"><div class="ctn"><div class="shdr fu"><h2>Current Bishop</h2><div class="gl"></div></div><div class="bic fu" style="max-width:860px;margin:0 auto"><img src="'+D.bishop.img+'" alt="'+D.bishop.name+'" loading="lazy"><div class="bicb"><h3>'+D.bishop.name+'</h3><div class="ttl">'+D.bishop.title+' — Akot Diocese</div><p>'+D.bishop.bio+'</p></div></div></div></section><section class="sec"><div class="ctn"><div class="shdr fu"><h2>Previous Bishops</h2><div class="gl"></div></div><div class="g2" style="max-width:860px;margin:0 auto">'+D.prevBishops.map(function(b){return '<div class="card fu" style="text-align:center;padding:28px"><img src="'+b.img+'" alt="'+b.name+'" style="width:110px;height:110px;border-radius:50%;object-fit:cover;margin:0 auto 14px;border:4px solid var(--gold)" loading="lazy"><h3 style="color:var(--pri)">'+b.name+'</h3><p style="color:var(--gold-d);font-weight:600;font-size:.88rem">'+b.period+'</p><p style="color:var(--g6);font-size:.85rem;margin-top:6px">'+b.bio+'</p></div>'}).join('')+'</div></div></section><section class="sec sec-a"><div class="ctn"><div class="shdr fu"><h2>Diocesan Leadership Team</h2><div class="gl"></div></div><div class="lg fu">'+lc('https://picsum.photos/seed/chancellor-m/200/200',D.chancellor.name,D.chancellor.title)+lc('https://picsum.photos/seed/secretary-s/200/200',D.secretary.name,D.secretary.title)+lc('https://picsum.photos/seed/mu-reb/200/200',D.mu.name,"Head of Mother's Union")+lc('https://picsum.photos/seed/laity-jn/200/200',D.laity.name,"Head of Laity")+lc('https://picsum.photos/seed/youth-dn/200/200',D.youth.name,"Head of Youth")+'</div></div></section><section class="sec"><div class="ctn"><div class="shdr fu"><h2>The '+A.length+' Archdeaconries</h2><div class="gl"></div><p>The diocese is structured into '+A.length+' archdeaconries, each led by an Archdeacon.</p></div><div class="g3">'+A.map(function(a,i){return '<div class="card fu s'+((i%6)+1)+'"><div class="cimg"><img src="'+a.img+'" alt="'+a.name+'" loading="lazy"><span class="cb">'+a.deaneries.length+' Deaneries</span></div><div class="cbod"><h3>'+a.name+'</h3><p>'+a.theme+'</p>'+cv(a.vs)+'<a class="btn btn-pr btn-sm btn-bl" onclick="nav(\'/archdeaconry/'+a.id+'\')"><i class="fas fa-arrow-right"></i> Explore</a></div></div>'}).join('')+'</div></div></section>';
 }
 
-// ========== ALL ARCHDEACONRIES ==========
 function rAllArch(app){
-  app.innerHTML=`
-  <div class="bc"><div class="ctn"><h1>Archdeaconries</h1><div class="bcl"><a onclick="nav('/')">Home</a><span class="sp">/</span><span>Archdeaconries</span></div></div></div>
-  <section class="sec"><div class="ctn">
-    <div class="shdr fu"><h2>Our 13 Archdeaconries</h2><div class="gl"></div><p>Each archdeaconry is led by an Archdeacon and comprises 3 deaneries with 9 parishes.</p></div>
-    <div class="g3">${A.map((a,i)=>`
-      <div class="card fu s${(i%6)+1}">
-        <div class="cimg"><img src="${a.img}" alt="${a.name}" loading="lazy"><span class="cb">${a.deaneries.length} Deaneries</span></div>
-        <div class="cbod"><h3>${a.name}</h3><p>Theme: ${a.theme}</p>${cv(a.vs)}
-          <div class="cftr">
-            <div class="cl"><img src="${a.arch.img}" alt="${a.arch.name}" loading="lazy"><div class="cli"><span>${a.arch.name}</span><small>Archdeacon</small></div></div>
-            <a class="btn btn-pr btn-sm" onclick="nav('/archdeconary/${a.id}')">View</a>
-          </div>
-        </div>
-      </div>`).join('')}
-    </div>
-  </div></section>`;
+  app.innerHTML='<div class="bc"><div class="ctn"><h1>Archdeaconries</h1><div class="bcl"><a onclick="nav(\'/\')">Home</a><span class="sp">/</span><span>Archdeaconries</span></div></div></div><section class="sec"><div class="ctn"><div class="shdr fu"><h2>Our '+A.length+' Archdeaconries</h2><div class="gl"></div><p>Each archdeaconry is led by an Archdeacon and comprises deaneries with parishes.</p></div><div class="g3">'+A.map(function(a,i){return '<div class="card fu s'+((i%6)+1)+'"><div class="cimg"><img src="'+a.img+'" alt="'+a.name+'" loading="lazy"><span class="cb">'+a.deaneries.length+' Deaneries</span></div><div class="cbod"><h3>'+a.name+'</h3><p>Theme: '+a.theme+'</p>'+cv(a.vs)+'<div class="cftr"><div class="cl"><img src="'+a.arch.img+'" alt="'+a.arch.name+'" loading="lazy"><div class="cli"><span>'+a.arch.name+'</span><small>Archdeacon</small></div></div><a class="btn btn-pr btn-sm" onclick="nav(\'/archdeaconry/'+a.id+'\')">View</a></div></div></div>'}).join('')+'</div></div></section>';
 }
 
-// ========== SINGLE ARCHDEACONRY ==========
 function rArch(app,id){
-  const a=gA(id);
-  if(!a){app.innerHTML='<div class="empty" style="padding-top:120px"><i class="fas fa-exclamation-circle"></i><p>Archdeaconry not found.</p></div>';return}
-  app.innerHTML=`
-  <div class="dh"><div class="ctn">
-    <div class="bcl" style="margin-bottom:14px"><a onclick="nav('/')">Home</a><span class="sp">/</span><a onclick="nav('/archdeaconries')">Archdeaconries</a><span class="sp">/</span><span>${a.name}</span></div>
-    <h1>${a.name}</h1><div class="thm">Theme: ${a.theme}</div><div class="vrs">"${a.vs.t}" — ${a.vs.r}</div>
-  </div></div>
-  <section class="sec"><div class="ctn">
-    <div class="shdr fu"><h2>Leadership</h2><div class="gl"></div></div>
-    <div class="lg fu">
-      ${lc(a.arch.img,a.arch.name,"Archdeacon")}
-      ${lc('https://picsum.photos/seed/'+id+'-mu/200/200',a.mu,"Head of Mother's Union")}
-      ${lc('https://picsum.photos/seed/'+id+'-la/200/200',a.laity,"Head of Laity")}
-      ${lc('https://picsum.photos/seed/'+id+'-yt/200/200',a.youth,"Head of Youth")}
-    </div>
-  </div></section>
-  <section class="sec sec-a"><div class="ctn">
-    <div class="shdr fu"><h2>Deaneries</h2><div class="gl"></div><p>${a.name} comprises ${a.deaneries.length} deaneries, each led by a Rural Dean.</p></div>
-    <div class="g3">${a.deaneries.map((d,i)=>`
-      <div class="card fu s${(i%3)+1}">
-        <div class="cimg"><img src="${d.img}" alt="${d.name}" loading="lazy"><span class="cb">${d.parishes.length} Parishes</span></div>
-        <div class="cbod"><h3>${d.name}</h3><p>Theme: ${d.theme}</p>${cv(d.vs)}
-          <div class="cftr">
-            <div class="cl"><img src="${d.rd.img}" alt="${d.rd.name}" loading="lazy"><div class="cli"><span>${d.rd.name}</span><small>Rural Dean</small></div></div>
-            <a class="btn btn-pr btn-sm" onclick="nav('/archdeaconry/${a.id}/deanery/${d.id}')">View</a>
-          </div>
-        </div>
-      </div>`).join('')}
-    </div>
-  </div></section>`;
+  var a=gA(id);if(!a){app.innerHTML='<div class="empty" style="padding-top:120px"><i class="fas fa-exclamation-circle"></i><p>Archdeaconry not found.</p></div>';return}
+  app.innerHTML='<div class="dh"><div class="ctn"><div class="bcl" style="margin-bottom:14px"><a onclick="nav(\'/\')">Home</a><span class="sp">/</span><a onclick="nav(\'/archdeaconries\')">Archdeaconries</a><span class="sp">/</span><span>'+a.name+'</span></div><h1>'+a.name+'</h1><div class="thm">Theme: '+a.theme+'</div><div class="vrs">"'+a.vs.t+'" — '+a.vs.r+'</div></div></div><section class="sec"><div class="ctn"><div class="shdr fu"><h2>Leadership</h2><div class="gl"></div></div><div class="lg fu">'+lc(a.arch.img,a.arch.name,"Archdeacon")+lc('https://picsum.photos/seed/'+id+'-mu/200/200',a.mu,"Head of Mother's Union")+lc('https://picsum.photos/seed/'+id+'-la/200/200',a.laity,"Head of Laity")+lc('https://picsum.photos/seed/'+id+'-yt/200/200',a.youth,"Head of Youth")+'</div></div></section><section class="sec sec-a"><div class="ctn"><div class="shdr fu"><h2>Deaneries</h2><div class="gl"></div><p>'+a.name+' comprises '+a.deaneries.length+' deaneries, each led by a Rural Dean.</p></div><div class="g3">'+a.deaneries.map(function(d,i){return '<div class="card fu s'+((i%3)+1)+'"><div class="cimg"><img src="'+d.img+'" alt="'+d.name+'" loading="lazy"><span class="cb">'+d.parishes.length+' Parishes</span></div><div class="cbod"><h3>'+d.name+'</h3><p>Theme: '+d.theme+'</p>'+cv(d.vs)+'<div class="cftr"><div class="cl"><img src="'+d.rd.img+'" alt="'+d.rd.name+'" loading="lazy"><div class="cli"><span>'+d.rd.name+'</span><small>Rural Dean</small></div></div><a class="btn btn-pr btn-sm" onclick="nav(\'/archdeaconry/'+a.id+'/deanery/'+d.id+'\')">View</a></div></div></div>'}).join('')+'</div></div></section>';
 }
 
-// ========== SINGLE DEANERY ==========
 function rDeanery(app,ai,di){
-  const a=gA(ai);const d=gD(ai,di);
-  if(!a||!d){app.innerHTML='<div class="empty" style="padding-top:120px"><i class="fas fa-exclamation-circle"></i><p>Deanery not found.</p></div>';return}
-  app.innerHTML=`
-  <div class="dh"><div class="ctn">
-    <div class="bcl" style="margin-bottom:14px"><a onclick="nav('/')">Home</a><span class="sp">/</span><a onclick="nav('/archdeaconries')">Archdeaconries</a><span class="sp">/</span><a onclick="nav('/archdeaconry/${ai}')">${a.name}</a><span class="sp">/</span><span>${d.name}</span></div>
-    <h1>${d.name}</h1><div class="thm">Theme: ${d.theme}</div><div class="vrs">"${d.vs.t}" — ${d.vs.r}</div>
-  </div></div>
-  <section class="sec"><div class="ctn">
-    <div class="shdr fu"><h2>Leadership</h2><div class="gl"></div></div>
-    <div class="lg fu">
-      ${lc(d.rd.img,d.rd.name,"Rural Dean")}
-      ${lc('https://picsum.photos/seed/'+di+'-mu/200/200',d.mu,"Head of Mother's Union")}
-      ${lc('https://picsum.photos/seed/'+di+'-la/200/200',d.laity,"Head of Laity")}
-      ${lc('https://picsum.photos/seed/'+di+'-yt/200/200',d.youth,"Head of Youth")}
-    </div>
-  </div></section>
-  <section class="sec sec-a"><div class="ctn">
-    <div class="shdr fu"><h2>Parishes</h2><div class="gl"></div><p>${d.name} comprises ${d.parishes.length} parishes, each led by a Parish Priest.</p></div>
-    <div class="g3">${d.parishes.map((p,i)=>`
-      <div class="card fu s${(i%3)+1}">
-        <div class="cimg"><img src="${p.img}" alt="${p.name}" loading="lazy"></div>
-        <div class="cbod"><h3>${p.name}</h3><p>Theme: ${p.theme}</p>${cv(p.vs)}
-          <div class="cftr">
-            <div class="cl"><img src="${p.priest.img}" alt="${p.priest.name}" loading="lazy"><div class="cli"><span>${p.priest.name}</span><small>Parish Priest</small></div></div>
-            <a class="btn btn-pr btn-sm" onclick="nav('/archdeaconry/${ai}/deanery/${di}/parish/${p.id}')">View</a>
-          </div>
-        </div>
-      </div>`).join('')}
-    </div>
-  </div></section>`;
+  var a=gA(ai),d=gD(ai,di);if(!a||!d){app.innerHTML='<div class="empty" style="padding-top:120px"><i class="fas fa-exclamation-circle"></i><p>Deanery not found.</p></div>';return}
+  app.innerHTML='<div class="dh"><div class="ctn"><div class="bcl" style="margin-bottom:14px"><a onclick="nav(\'/\')">Home</a><span class="sp">/</span><a onclick="nav(\'/archdeaconries\')">Archdeaconries</a><span class="sp">/</span><a onclick="nav(\'/archdeaconry/'+ai+'\')">'+a.name+'</a><span class="sp">/</span><span>'+d.name+'</span></div><h1>'+d.name+'</h1><div class="thm">Theme: '+d.theme+'</div><div class="vrs">"'+d.vs.t+'" — '+d.vs.r+'</div></div></div><section class="sec"><div class="ctn"><div class="shdr fu"><h2>Leadership</h2><div class="gl"></div></div><div class="lg fu">'+lc(d.rd.img,d.rd.name,"Rural Dean")+lc('https://picsum.photos/seed/'+di+'-mu/200/200',d.mu,"Head of Mother's Union")+lc('https://picsum.photos/seed/'+di+'-la/200/200',d.laity,"Head of Laity")+lc('https://picsum.photos/seed/'+di+'-yt/200/200',d.youth,"Head of Youth")+'</div></div></section><section class="sec sec-a"><div class="ctn"><div class="shdr fu"><h2>Parishes</h2><div class="gl"></div><p>'+d.name+' comprises '+d.parishes.length+' parishes, each led by a Parish Priest.</p></div><div class="g3">'+d.parishes.map(function(p,i){return '<div class="card fu s'+((i%3)+1)+'"><div class="cimg"><img src="'+p.img+'" alt="'+p.name+'" loading="lazy"></div><div class="cbod"><h3>'+p.name+'</h3><p>Theme: '+p.theme+'</p>'+cv(p.vs)+'<div class="cftr"><div class="cl"><img src="'+p.priest.img+'" alt="'+p.priest.name+'" loading="lazy"><div class="cli"><span>'+p.priest.name+'</span><small>Parish Priest</small></div></div><a class="btn btn-pr btn-sm" onclick="nav(\'/archdeaconry/'+ai+'/deanery/'+di+'/parish/'+p.id+'\')">View</a></div></div></div>'}).join('')+'</div></div></section>';
 }
 
-// ========== SINGLE PARISH ==========
 function rParish(app,ai,di,pi){
-  const a=gA(ai);const d=gD(ai,di);const p=gP(ai,di,pi);
-  if(!a||!d||!p){app.innerHTML='<div class="empty" style="padding-top:120px"><i class="fas fa-exclamation-circle"></i><p>Parish not found.</p></div>';return}
-  app.innerHTML=`
-  <div class="dh"><div class="ctn">
-    <div class="bcl" style="margin-bottom:14px"><a onclick="nav('/')">Home</a><span class="sp">/</span><a onclick="nav('/archdeaconries')">Archdeaconries</a><span class="sp">/</span><a onclick="nav('/archdeaconry/${ai}')">${a.name}</a><span class="sp">/</span><a onclick="nav('/archdeaconry/${ai}/deanery/${di}')">${d.name}</a><span class="sp">/</span><span>${p.name}</span></div>
-    <h1>${p.name}</h1><div class="thm">Theme: ${p.theme}</div><div class="vrs">"${p.vs.t}" — ${p.vs.r}</div>
-  </div></div>
-  <section class="sec"><div class="ctn">
-    <div class="g2" style="gap:36px;align-items:flex-start">
-      <div class="fu"><div style="border-radius:16px;overflow:hidden;box-shadow:var(--sh)"><img src="${p.img}" alt="${p.name}" loading="lazy"></div></div>
-      <div class="fu s2">
-        <h2 style="font-size:1.7rem;font-weight:900;color:var(--pri);margin-bottom:14px">About This Parish</h2>
-        <p style="color:var(--g6);line-height:1.75;margin-bottom:20px">${p.name} is a vital part of ${d.name} within ${a.name}. Under the spiritual guidance of ${p.priest.name}, the parish serves the local community through worship, fellowship, and outreach programs. The parish is dedicated to "${p.theme}" — a reminder of God's faithfulness and our calling to serve.</p>
-        ${cv(p.vs)}
-      </div>
-    </div>
-  </div></section>
-  <section class="sec sec-a"><div class="ctn">
-    <div class="shdr fu"><h2>Parish Leadership</h2><div class="gl"></div></div>
-    <div class="lg fu">
-      ${lc(p.priest.img,p.priest.name,"Parish Priest")}
-      ${lc('https://picsum.photos/seed/'+pi+'-mu/200/200',p.mu,"Head of Mother's Union")}
-      ${lc('https://picsum.photos/seed/'+pi+'-la/200/200',p.laity,"Head of Laity")}
-      ${lc('https://picsum.photos/seed/'+pi+'-yt/200/200',p.youth,"Head of Youth")}
-    </div>
-  </div></section>
-  <section class="sec"><div class="ctn">
-    <div class="shdr fu"><h2>Service Times</h2><div class="gl"></div></div>
-    <div class="g3 fu">
-      <div class="fc"><div class="fci"><i class="fas fa-sun"></i></div><h3>Sunday Service</h3><p>Main Worship: 9:00 AM – 12:00 PM<br>Sunday School: 8:00 AM</p></div>
-      <div class="fc"><div class="fci"><i class="fas fa-pray"></i></div><h3>Midweek Prayer</h3><p>Wednesday: 5:00 PM – 6:30 PM<br>Bible Study follows</p></div>
-      <div class="fc"><div class="fci"><i class="fas fa-music"></i></div><h3>Youth Fellowship</h3><p>Saturday: 4:00 PM – 6:00 PM<br>Choir Practice: 6:00 PM</p></div>
-    </div>
-  </div></section>`;
+  var a=gA(ai),d=gD(ai,di),p=gP(ai,di,pi);if(!a||!d||!p){app.innerHTML='<div class="empty" style="padding-top:120px"><i class="fas fa-exclamation-circle"></i><p>Parish not found.</p></div>';return}
+  app.innerHTML='<div class="dh"><div class="ctn"><div class="bcl" style="margin-bottom:14px"><a onclick="nav(\'/\')">Home</a><span class="sp">/</span><a onclick="nav(\'/archdeaconries\')">Archdeaconries</a><span class="sp">/</span><a onclick="nav(\'/archdeaconry/'+ai+'\')">'+a.name+'</a><span class="sp">/</span><a onclick="nav(\'/archdeaconry/'+ai+'/deanery/'+di+'\')">'+d.name+'</a><span class="sp">/</span><span>'+p.name+'</span></div><h1>'+p.name+'</h1><div class="thm">Theme: '+p.theme+'</div><div class="vrs">"'+p.vs.t+'" — '+p.vs.r+'</div></div></div><section class="sec"><div class="ctn"><div class="g2" style="gap:36px;align-items:flex-start"><div class="fu"><div style="border-radius:16px;overflow:hidden;box-shadow:var(--sh)"><img src="'+p.img+'" alt="'+p.name+'" loading="lazy"></div></div><div class="fu s2"><h2 style="font-size:1.7rem;font-weight:900;color:var(--pri);margin-bottom:14px">About This Parish</h2><p style="color:var(--g6);line-height:1.75;margin-bottom:20px">'+p.name+' is a vital part of '+d.name+' within '+a.name+'. Under the spiritual guidance of '+p.priest.name+', the parish serves the local community through worship, fellowship, and outreach programs. The parish is dedicated to "'+p.theme+'" — a reminder of God\'s faithfulness and our calling to serve.</p>'+cv(p.vs)+'</div></div></div></section><section class="sec sec-a"><div class="ctn"><div class="shdr fu"><h2>Parish Leadership</h2><div class="gl"></div></div><div class="lg fu">'+lc(p.priest.img,p.priest.name,"Parish Priest")+lc('https://picsum.photos/seed/'+pi+'-mu/200/200',p.mu,"Head of Mother's Union")+lc('https://picsum.photos/seed/'+pi+'-la/200/200',p.laity,"Head of Laity")+lc('https://picsum.photos/seed/'+pi+'-yt/200/200',p.youth,"Head of Youth")+'</div></div></section><section class="sec"><div class="ctn"><div class="shdr fu"><h2>Service Times</h2><div class="gl"></div></div><div class="g3 fu"><div class="fc"><div class="fci"><i class="fas fa-sun"></i></div><h3>Sunday Service</h3><p>Main Worship: 9:00 AM – 12:00 PM<br>Sunday School: 8:00 AM</p></div><div class="fc"><div class="fci"><i class="fas fa-pray"></i></div><h3>Midweek Prayer</h3><p>Wednesday: 5:00 PM – 6:30 PM<br>Bible Study follows</p></div><div class="fc"><div class="fci"><i class="fas fa-music"></i></div><h3>Youth Fellowship</h3><p>Saturday: 4:00 PM – 6:00 PM<br>Choir Practice: 6:00 PM</p></div></div></div></section>';
 }
 
-// ========== CONTACT ==========
 function rContact(app){
-  app.innerHTML=`
-  <div class="bc"><div class="ctn"><h1>Contact Us</h1><div class="bcl"><a onclick="nav('/')">Home</a><span class="sp">/</span><span>Contact</span></div></div></div>
-  <section class="sec"><div class="ctn">
-    <div class="g2" style="gap:40px;align-items:flex-start">
-      <div class="fu">
-        <h2 style="font-size:1.7rem;font-weight:900;color:var(--pri);margin-bottom:14px">Get in Touch</h2>
-        <p style="color:var(--g6);margin-bottom:24px;line-height:1.7">We would love to hear from you. Whether you have a question about our church, programs, or need spiritual guidance, our team is here to help.</p>
-        <div style="margin-bottom:18px"><div style="display:flex;align-items:center;gap:12px;margin-bottom:14px"><i class="fas fa-map-marker-alt" style="color:var(--pri);font-size:1.2rem;width:20px"></i><span style="color:var(--g6);font-size:.9rem">Akot, Lakes State, South Sudan</span></div>
-        <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px"><i class="fas fa-envelope" style="color:var(--pri);font-size:1.2rem;width:20px"></i><span style="color:var(--g6);font-size:.9rem">info@akotdiocese.org</span></div>
-        <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px"><i class="fas fa-phone" style="color:var(--pri);font-size:1.2rem;width:20px"></i><span style="color:var(--g6);font-size:.9rem">+211 920 000 000</span></div>
-        <div style="display:flex;align-items:center;gap:12px"><i class="fas fa-clock" style="color:var(--pri);font-size:1.2rem;width:20px"></i><span style="color:var(--g6);font-size:.9rem">Mon–Fri: 8:00 AM – 5:00 PM</span></div></div>
-      </div>
-      <div class="fu s2" style="background:var(--ow);padding:28px;border-radius:16px;border:1px solid var(--g2)">
-        <h3 style="font-size:1.2rem;font-weight:700;color:var(--pri);margin-bottom:20px">Send us a Message</h3>
-        <form onsubmit="submitContact(event)">
-          <div class="fr"><div class="fg"><label>Full Name *</label><input type="text" id="cName" required placeholder="Your full name"></div><div class="fg"><label>Email *</label><input type="email" id="cEmail" required placeholder="your@email.com"></div></div>
-          <div class="fr"><div class="fg"><label>Phone</label><input type="tel" id="cPhone" placeholder="+211 9XX XXX XXX"></div><div class="fg"><label>Address</label><input type="text" id="cAddr" placeholder="Your address"></div></div>
-          <div class="fg"><label>Subject</label><select id="cSubject"><option>General Inquiry</option><option>Spiritual Guidance</option><option>Programs & Events</option><option>Membership</option><option>Partnership</option><option>Other</option></select></div>
-          <div class="fg"><label>Message *</label><textarea id="cMsg" required placeholder="How can we help you?"></textarea></div>
-          <button type="submit" class="btn btn-pr btn-bl"><i class="fas fa-paper-plane"></i> Send Message</button>
-          <div class="fsuc" id="cSucc"><i class="fas fa-check-circle"></i> Your message has been sent successfully! We will get back to you soon.</div>
-        </form>
-      </div>
-    </div>
-  </div></section>`;
+  app.innerHTML='<div class="bc"><div class="ctn"><h1>Contact Us</h1><div class="bcl"><a onclick="nav(\'/\')">Home</a><span class="sp">/</span><span>Contact</span></div></div></div><section class="sec"><div class="ctn"><div class="g2" style="gap:40px;align-items:flex-start"><div class="fu"><h2 style="font-size:1.7rem;font-weight:900;color:var(--pri);margin-bottom:14px">Get in Touch</h2><p style="color:var(--g6);margin-bottom:24px;line-height:1.7">We would love to hear from you. Whether you have a question about our church, programs, or need spiritual guidance, our team is here to help.</p><div style="margin-bottom:18px"><div style="display:flex;align-items:center;gap:12px;margin-bottom:14px"><i class="fas fa-map-marker-alt" style="color:var(--pri);font-size:1.2rem;width:20px"></i><span style="color:var(--g6);font-size:.9rem">Akot, Lakes State, South Sudan</span></div><div style="display:flex;align-items:center;gap:12px;margin-bottom:14px"><i class="fas fa-envelope" style="color:var(--pri);font-size:1.2rem;width:20px"></i><span style="color:var(--g6);font-size:.9rem">info@akotdiocese.org</span></div><div style="display:flex;align-items:center;gap:12px;margin-bottom:14px"><i class="fas fa-phone" style="color:var(--pri);font-size:1.2rem;width:20px"></i><span style="color:var(--g6);font-size:.9rem">+211 920 000 000</span></div><div style="display:flex;align-items:center;gap:12px"><i class="fas fa-clock" style="color:var(--pri);font-size:1.2rem;width:20px"></i><span style="color:var(--g6);font-size:.9rem">Mon–Fri: 8:00 AM – 5:00 PM</span></div></div></div><div class="fu s2" style="background:var(--ow);padding:28px;border-radius:16px;border:1px solid var(--g2)"><h3 style="font-size:1.2rem;font-weight:700;color:var(--pri);margin-bottom:20px">Send us a Message</h3><form onsubmit="submitContact(event)"><div class="fr"><div class="fg"><label>Full Name *</label><input type="text" id="cName" required placeholder="Your full name"></div><div class="fg"><label>Email *</label><input type="email" id="cEmail" required placeholder="your@email.com"></div></div><div class="fr"><div class="fg"><label>Phone</label><input type="tel" id="cPhone" placeholder="+211 9XX XXX XXX"></div><div class="fg><label>Address</label><input type="text" id="cAddr" placeholder="Your address"></div></div><div class="fg"><label>Subject</label><select id="cSubject"><option>General Inquiry</option><option>Spiritual Guidance</option><option>Programs & Events</option><option>Membership</option><option>Partnership</option><option>Other</option></select></div><div class="fg"><label>Message *</label><textarea id="cMsg" required placeholder="How can we help you?"></textarea></div><button type="submit" class="btn btn-pr btn-bl"><i class="fas fa-paper-plane"></i> Send Message</button><div class="fsuc" id="cSucc"><i class="fas fa-check-circle"></i> Your message has been sent successfully! We will get back to you soon.</div></form></div></div></div></section>';
 }
 
 function submitContact(e){
   e.preventDefault();
-  const msg={id:Date.now(),name:document.getElementById('cName').value,email:document.getElementById('cEmail').value,phone:document.getElementById('cPhone').value,address:document.getElementById('cAddr').value,subject:document.getElementById('cSubject').value,message:document.getElementById('cMsg').value,date:new Date().toLocaleDateString(),status:'new'};
-  let msgs=JSON.parse(localStorage.getItem('ecss_contacts')||'[]');
+  var msg={id:Date.now(),name:document.getElementById('cName').value,email:document.getElementById('cEmail').value,phone:document.getElementById('cPhone').value,address:document.getElementById('cAddr').value,subject:document.getElementById('cSubject').value,message:document.getElementById('cMsg').value,date:new Date().toLocaleDateString(),status:'new'};
+  var msgs=JSON.parse(localStorage.getItem('ecss_contacts')||'[]');
   msgs.unshift(msg);localStorage.setItem('ecss_contacts',JSON.stringify(msgs));
   document.getElementById('cSucc').classList.add('show');
   e.target.reset();
   toast('Message sent successfully!','ok');
 }
 
-// ========== DONATE ==========
 function rDonate(app){
-  app.innerHTML=`
-  <div class="bc"><div class="ctn"><h1>Donate</h1><div class="bcl"><a onclick="nav('/')">Home</a><span class="sp">/</span><span>Donate</span></div></div></div>
-  <section class="sec"><div class="ctn">
-    <div class="g2" style="gap:40px;align-items:flex-start">
-      <div class="fu">
-        <h2 style="font-size:1.7rem;font-weight:900;color:var(--pri);margin-bottom:14px">Support Our Mission</h2>
-        <p style="color:var(--g6);margin-bottom:20px;line-height:1.7">Your generous donations help us spread the Gospel, support education, provide healthcare, and serve vulnerable communities across the Akot Diocese. Every contribution makes a difference in the lives of God's people.</p>
-        <div style="background:var(--ow);padding:20px;border-radius:12px;border-left:4px solid var(--gold);margin-bottom:20px">
-          <p style="font-style:italic;color:var(--g7);font-size:.92rem">"Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver."</p>
-          <p style="color:var(--gold-d);font-weight:600;font-size:.85rem;margin-top:6px">— 2 Corinthians 9:7</p>
-        </div>
-        <h3 style="font-size:1.1rem;font-weight:700;color:var(--pri);margin-bottom:12px">Your Donations Support:</h3>
-        <div style="margin-bottom:8px;display:flex;align-items:center;gap:10px"><i class="fas fa-church" style="color:var(--pri)"></i><span style="color:var(--g6);font-size:.9rem">Church construction and maintenance</span></div>
-        <div style="margin-bottom:8px;display:flex;align-items:center;gap:10px"><i class="fas fa-graduation-cap" style="color:var(--pri)"></i><span style="color:var(--g6);font-size:.9rem">Education and scholarships</span></div>
-        <div style="margin-bottom:8px;display:flex;align-items:center;gap:10px"><i class="fas fa-heartbeat" style="color:var(--pri)"></i><span style="color:var(--g6);font-size:.9rem">Healthcare programs</span></div>
-        <div style="margin-bottom:8px;display:flex;align-items:center;gap:10px"><i class="fas fa-hand-holding-heart" style="color:var(--pri)"></i><span style="color:var(--g6);font-size:.9rem">Humanitarian assistance</span></div>
-        <div style="display:flex;align-items:center;gap:10px"><i class="fas fa-book-open" style="color:var(--pri)"></i><span style="color:var(--g6);font-size:.9rem">Clergy training and development</span></div>
-      </div>
-      <div class="fu s2" style="background:var(--ow);padding:28px;border-radius:16px;border:1px solid var(--g2)">
-        <h3 style="font-size:1.2rem;font-weight:700;color:var(--pri);margin-bottom:20px">Make a Donation</h3>
-        <form onsubmit="submitDonation(event)">
-          <div class="fr"><div class="fg"><label>Full Name *</label><input type="text" id="dName" required placeholder="Your full name"></div><div class="fg"><label>Email *</label><input type="email" id="dEmail" required placeholder="your@email.com"></div></div>
-          <div class="fr"><div class="fg"><label>Phone</label><input type="tel" id="dPhone" placeholder="+211 9XX XXX XXX"></div><div class="fg"><label>Address</label><input type="text" id="dAddr" placeholder="Your address"></div></div>
-          <div class="fg"><label>Donation Amount (USD) *</label><input type="number" id="dAmt" required min="1" placeholder="Enter amount"></div>
-          <div class="fg"><label>Donation Purpose</label><select id="dPurpose"><option>General Fund</option><option>Church Building</option><option>Education</option><option>Healthcare</option><option>Clergy Support</option><option>Humanitarian Aid</option><option>Youth Programs</option></select></div>
-          <div class="fg"><label>Message</label><textarea id="dMsg" placeholder="Any special message or instructions"></textarea></div>
-          <button type="submit" class="btn btn-p btn-bl"><i class="fas fa-heart"></i> Donate Now</button>
-          <div class="fsuc" id="dSucc"><i class="fas fa-check-circle"></i> Thank you for your generous donation! God bless you abundantly.</div>
-        </form>
-      </div>
-    </div>
-  </div></section>`;
+  app.innerHTML='<div class="bc"><div class="ctn"><h1>Donate</h1><div class="bcl"><a onclick="nav(\'/\')">Home</a><span class="sp">/</span><span>Donate</span></div></div></div><section class="sec"><div class="ctn"><div class="g2" style="gap:40px;align-items:flex-start"><div class="fu"><h2 style="font-size:1.7rem;font-weight:900;color:var(--pri);margin-bottom:14px">Support Our Mission</h2><p style="color:var(--g6);margin-bottom:20px;line-height:1.7">Your generous donations help us spread the Gospel, support education, provide healthcare, and serve vulnerable communities across the Akot Diocese. Every contribution makes a difference in the lives of God\'s people.</p><div style="background:var(--ow);padding:20px;border-radius:12px;border-left:4px solid var(--gold);margin-bottom:20px"><p style="font-style:italic;color:var(--g7);font-size:.92rem">"Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver."</p><p style="color:var(--gold-d);font-weight:600;font-size:.85rem;margin-top:6px">— 2 Corinthians 9:7</p></div><h3 style="font-size:1.1rem;font-weight:700;color:var(--pri);margin-bottom:12px">Your Donations Support:</h3><div style="margin-bottom:8px;display:flex;align-items:center;gap:10px"><i class="fas fa-church" style="color:var(--pri)"></i><span style="color:var(--g6);font-size:.9rem">Church construction and maintenance</span></div><div style="margin-bottom:8px;display:flex;align-items:center;gap:10px"><i class="fas fa-graduation-cap" style="color:var(--pri)"></i><span style="color:var(--g6);font-size:.9rem">Education and scholarships</span></div><div style="margin-bottom:8px;display:flex;align-items:center;gap:10px"><i class="fas fa-heartbeat" style="color:var(--pri)"></i><span style="color:var(--g6);font-size:.9rem">Healthcare programs</span></div><div style="margin-bottom:8px;display:flex;align-items:center;gap:10px"><i class="fas fa-hand-holding-heart" style="color:var(--pri)"></i><span style="color:var(--g6);font-size:.9rem">Humanitarian assistance</span></div><div style="display:flex;align-items:center;gap:10px"><i class="fas fa-book-open" style="color:var(--pri)"></i><span style="color:var(--g6);font-size:.9rem">Clergy training and development</span></div></div><div class="fu s2" style="background:var(--ow);padding:28px;border-radius:16px;border:1px solid var(--g2)"><h3 style="font-size:1.2rem;font-weight:700;color:var(--pri);margin-bottom:20px">Make a Donation</h3><form onsubmit="submitDonation(event)"><div class="fr"><div class="fg"><label>Full Name *</label><input type="text" id="dName" required placeholder="Your full name"></div><div class="fg"><label>Email *</label><input type="email" id="dEmail" required placeholder="your@email.com"></div></div><div class="fr"><div class="fg"><label>Phone</label><input type="tel" id="dPhone" placeholder="+211 9XX XXX XXX"></div><div class="fg"><label>Address</label><input type="text" id="dAddr" placeholder="Your address"></div></div><div class="fg"><label>Donation Amount (USD) *</label><input type="number" id="dAmt" required min="1" placeholder="Enter amount"></div><div class="fg"><label>Donation Purpose</label><select id="dPurpose"><option>General Fund</option><option>Church Building</option><option>Education</option><option>Healthcare</option><option>Clergy Support</option><option>Humanitarian Aid</option><option>Youth Programs</option></select></div><div class="fg"><label>Message</label><textarea id="dMsg" placeholder="Any special message or instructions"></textarea></div><button type="submit" class="btn btn-p btn-bl"><i class="fas fa-heart"></i> Donate Now</button><div class="fsuc" id="dSucc"><i class="fas fa-check-circle"></i> Thank you for your generous donation! God bless you abundantly.</div></form></div></div></div></section>';
 }
 
 function submitDonation(e){
   e.preventDefault();
-  const don={id:Date.now(),name:document.getElementById('dName').value,email:document.getElementById('dEmail').value,phone:document.getElementById('dPhone').value,address:document.getElementById('dAddr').value,amount:document.getElementById('dAmt').value,purpose:document.getElementById('dPurpose').value,message:document.getElementById('dMsg').value,date:new Date().toLocaleDateString(),status:'new'};
-  let dons=JSON.parse(localStorage.getItem('ecss_donations')||'[]');
+  var don={id:Date.now(),name:document.getElementById('dName').value,email:document.getElementById('dEmail').value,phone:document.getElementById('dPhone').value,address:document.getElementById('dAddr').value,amount:document.getElementById('dAmt').value,purpose:document.getElementById('dPurpose').value,message:document.getElementById('dMsg').value,date:new Date().toLocaleDateString(),status:'new'};
+  var dons=JSON.parse(localStorage.getItem('ecss_donations')||'[]');
   dons.unshift(don);localStorage.setItem('ecss_donations',JSON.stringify(dons));
   document.getElementById('dSucc').classList.add('show');
   e.target.reset();
   toast('Donation received! Thank you!','ok');
 }
 
-// ========== ADMIN ==========
-let adminLoggedIn=false;
-let adminTab='dashboard';
+/* ================================================================
+   ADMIN
+   ================================================================ */
+var adminLoggedIn=false;
+var adminTab='dashboard';
 
 function rAdmin(app,tab){
   if(tab) adminTab=tab;
   if(!adminLoggedIn){rAdminLogin(app);return}
-  const msgs=JSON.parse(localStorage.getItem('ecss_contacts')||'[]');
-  const dons=JSON.parse(localStorage.getItem('ecss_donations')||'[]');
-  const totalDon=dons.reduce((s,d)=>s+Number(d.amount||0),0);
+  var msgs=JSON.parse(localStorage.getItem('ecss_contacts')||'[]');
+  var dons=JSON.parse(localStorage.getItem('ecss_donations')||'[]');
+  var totalDon=0;dons.forEach(function(d){totalDon+=Number(d.amount||0)});
 
-  app.innerHTML=`
-  <div class="al">
-    <div class="asb">
-      <h3>Admin Panel</h3>
-      <nav class="anv">
-        <a class="${adminTab==='dashboard'?'act':''}" onclick="adminTab='dashboard';rAdmin(document.getElementById('app'))"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
-        <a class="${adminTab==='messages'?'act':''}" onclick="adminTab='messages';rAdmin(document.getElementById('app'))"><i class="fas fa-envelope"></i> Messages (${msgs.length})</a>
-        <a class="${adminTab==='donations'?'act':''}" onclick="adminTab='donations';rAdmin(document.getElementById('app'))"><i class="fas fa-hand-holding-usd"></i> Donations (${dons.length})</a>
-        <a onclick="adminLoggedIn=false;adminTab='dashboard';rAdmin(document.getElementById('app'))"><i class="fas fa-sign-out-alt"></i> Logout</a>
-      </nav>
-    </div>
-    <div class="amn">
-      ${adminTab==='dashboard'?`
-        <div class="amh"><h2>Dashboard</h2><span style="color:var(--g5);font-size:.85rem"><i class="fas fa-clock"></i> ${new Date().toLocaleDateString()}</span></div>
-        <div class="asg">
-          <div class="ast"><div class="ic ms"><i class="fas fa-envelope"></i></div><div class="vl">${msgs.length}</div><div class="lb">Messages</div></div>
-          <div class="ast"><div class="ic dn"><i class="fas fa-dollar-sign"></i></div><div class="vl">$${totalDon.toLocaleString()}</div><div class="lb">Total Donations</div></div>
-          <div class="ast"><div class="ic iq"><i class="fas fa-hand-holding-usd"></i></div><div class="vl">${dons.length}</div><div class="lb">Donation Records</div></div>
-        </div>
-        <div class="atw">
-          <div class="ath"><h3>Recent Messages</h3></div>
-          ${msgs.length?`<table><thead><tr><th>Name</th><th>Email</th><th>Subject</th><th>Date</th><th>Status</th></tr></thead><tbody>
-            ${msgs.slice(0,5).map(m=>`<tr><td>${m.name}</td><td>${m.email}</td><td>${m.subject||'General'}</td><td>${m.date}</td><td><span class="bdg ${m.status==='new'?'bdg-n':'bdg-r'}">${m.status}</span></td></tr>`).join('')}
-          </tbody></table>`:'<div class="empty"><i class="fas fa-inbox"></i><p>No messages yet</p></div>'}
-        </div>
-        ${dons.length?`<div class="atw" style="margin-top:20px"><div class="ath"><h3>Recent Donations</h3></div><table><thead><tr><th>Name</th><th>Amount</th><th>Purpose</th><th>Date</th></tr></thead><tbody>
-          ${dons.slice(0,5).map(d=>`<tr><td>${d.name}</td><td>$${Number(d.amount).toLocaleString()}</td><td>${d.purpose}</td><td>${d.date}</td></tr>`).join('')}
-        </tbody></table></div>`:''}
-      `:''}
-      ${adminTab==='messages'?`
-        <div class="amh"><h2>Contact Messages</h2><button class="btn btn-sm btn-pr" onclick="localStorage.removeItem('ecss_contacts');rAdmin(document.getElementById('app'))"><i class="fas fa-trash"></i> Clear All</button></div>
-        <div class="atw">
-          ${msgs.length?`<table><thead><tr><th>Name</th><th>Email</th><th>Phone</th><th>Subject</th><th>Message</th><th>Date</th><th>Status</th><th>Action</th></tr></thead><tbody>
-            ${msgs.map(m=>`<tr><td>${m.name}</td><td style="font-size:.8rem">${m.email}</td><td style="font-size:.8rem">${m.phone||'-'}</td><td>${m.subject||'General'}</td><td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${m.message}</td><td>${m.date}</td><td><span class="bdg ${m.status==='new'?'bdg-n':'bdg-r'}">${m.status}</span></td><td><button class="bdl" onclick="markMsg(${m.id})"><i class="fas fa-check"></i></button> <button class="bdl" onclick="delMsg(${m.id})"><i class="fas fa-trash"></i></button></td></tr>`).join('')}
-          </tbody></table>`:'<div class="empty"><i class="fas fa-inbox"></i><p>No messages yet</p></div>'}
-        </div>
-      `:''}
-      ${adminTab==='donations'?`
-        <div class="amh"><h2>Donation Records</h2><button class="btn btn-sm btn-pr" onclick="localStorage.removeItem('ecss_donations');rAdmin(document.getElementById('app'))"><i class="fas fa-trash"></i> Clear All</button></div>
-        <div class="atw">
-          ${dons.length?`<table><thead><tr><th>Name</th><th>Email</th><th>Amount</th><th>Purpose</th><th>Message</th><th>Date</th><th>Action</th></tr></thead><tbody>
-            ${dons.map(d=>`<tr><td>${d.name}</td><td style="font-size:.8rem">${d.email}</td><td style="font-weight:700;color:var(--pri)">$${Number(d.amount).toLocaleString()}</td><td>${d.purpose}</td><td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${d.message||'-'}</td><td>${d.date}</td><td><button class="bdl" onclick="delDon(${d.id})"><i class="fas fa-trash"></i></button></td></tr>`).join('')}
-          </tbody></table>`:'<div class="empty"><i class="fas fa-inbox"></i><p>No donations yet</p></div>'}
-        </div>
-      `:''}
-    </div>
-  </div>`;
+  var dashHtml='<div class="amh"><h2>Dashboard</h2><span style="color:var(--g5);font-size:.85rem"><i class="fas fa-clock"></i> '+new Date().toLocaleDateString()+'</span></div><div class="asg"><div class="ast"><div class="ic ms"><i class="fas fa-envelope"></i></div><div class="vl">'+msgs.length+'</div><div class="lb">Messages</div></div><div class="ast"><div class="ic dn"><i class="fas fa-dollar-sign"></i></div><div class="vl">$'+totalDon.toLocaleString()+'</div><div class="lb">Total Donations</div></div><div class="ast"><div class="ic iq"><i class="fas fa-hand-holding-usd"></i></div><div class="vl">'+dons.length+'</div><div class="lb">Donation Records</div></div></div><div class="atw"><div class="ath"><h3>Recent Messages</h3></div>';
+  if(msgs.length){dashHtml+='<table><thead><tr><th>Name</th><th>Email</th><th>Subject</th><th>Date</th><th>Status</th></tr></thead><tbody>';msgs.slice(0,5).forEach(function(m){dashHtml+='<tr><td>'+m.name+'</td><td>'+m.email+'</td><td>'+(m.subject||'General')+'</td><td>'+m.date+'</td><td><span class="bdg '+(m.status==='new'?'bdg-n':'bdg-r')+'">'+m.status+'</span></td></tr>'});dashHtml+='</tbody></table>';}else{dashHtml+='<div class="empty"><i class="fas fa-inbox"></i><p>No messages yet</p></div>';}
+  dashHtml+='</div>';
+  if(dons.length){dashHtml+='<div class="atw" style="margin-top:20px"><div class="ath"><h3>Recent Donations</h3></div><table><thead><tr><th>Name</th><th>Amount</th><th>Purpose</th><th>Date</th></tr></thead><tbody>';dons.slice(0,5).forEach(function(d){dashHtml+='<tr><td>'+d.name+'</td><td>$'+Number(d.amount).toLocaleString()+'</td><td>'+d.purpose+'</td><td>'+d.date+'</td></tr>'});dashHtml+='</tbody></table></div>';}
+
+  var msgHtml='<div class="amh"><h2>Contact Messages</h2><button class="btn btn-sm btn-pr" onclick="localStorage.removeItem(\'ecss_contacts\');rAdmin(document.getElementById(\'app\'))"><i class="fas fa-trash"></i> Clear All</button></div><div class="atw">';
+  if(msgs.length){msgHtml+='<table><thead><tr><th>Name</th><th>Email</th><th>Phone</th><th>Subject</th><th>Message</th><th>Date</th><th>Status</th><th>Action</th></tr></thead><tbody>';msgs.forEach(function(m){msgHtml+='<tr><td>'+m.name+'</td><td style="font-size:.8rem">'+m.email+'</td><td style="font-size:.8rem">'+(m.phone||'-')+'</td><td>'+(m.subject||'General')+'</td><td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+m.message+'</td><td>'+m.date+'</td><td><span class="bdg '+(m.status==='new'?'bdg-n':'bdg-r')+'">'+m.status+'</span></td><td><button class="bdl" onclick="markMsg('+m.id+')"><i class="fas fa-check"></i></button> <button class="bdl" onclick="delMsg('+m.id+')"><i class="fas fa-trash"></i></button></td></tr>'});msgHtml+='</tbody></table>';}else{msgHtml+='<div class="empty"><i class="fas fa-inbox"></i><p>No messages yet</p></div>';}
+  msgHtml+='</div>';
+
+  var donHtml='<div class="amh"><h2>Donation Records</h2><button class="btn btn-sm btn-pr" onclick="localStorage.removeItem(\'ecss_donations\');rAdmin(document.getElementById(\'app\'))"><i class="fas fa-trash"></i> Clear All</button></div><div class="atw">';
+  if(dons.length){donHtml+='<table><thead><tr><th>Name</th><th>Email</th><th>Amount</th><th>Purpose</th><th>Message</th><th>Date</th><th>Action</th></tr></thead><tbody>';dons.forEach(function(d){donHtml+='<tr><td>'+d.name+'</td><td style="font-size:.8rem">'+d.email+'</td><td style="font-weight:700;color:var(--pri)">$'+Number(d.amount).toLocaleString()+'</td><td>'+d.purpose+'</td><td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+(d.message||'-')+'</td><td>'+d.date+'</td><td><button class="bdl" onclick="delDon('+d.id+')"><i class="fas fa-trash"></i></button></td></tr>'});donHtml+='</tbody></table>';}else{donHtml+='<div class="empty"><i class="fas fa-inbox"></i><p>No donations yet</p></div>';}
+  donHtml+='</div>';
+
+  app.innerHTML='<div class="al"><div class="asb"><h3>Admin Panel</h3><nav class="anv"><a class="'+(adminTab==='dashboard'?'act':'')+'" onclick="adminTab=\'dashboard\';rAdmin(document.getElementById(\'app\'))"><i class="fas fa-tachometer-alt"></i> Dashboard</a><a class="'+(adminTab==='messages'?'act':'')+'" onclick="adminTab=\'messages\';rAdmin(document.getElementById(\'app\'))"><i class="fas fa-envelope"></i> Messages ('+msgs.length+')</a><a class="'+(adminTab==='donations'?'act':'')+'" onclick="adminTab=\'donations\';rAdmin(document.getElementById(\'app\'))"><i class="fas fa-hand-holding-usd"></i> Donations ('+dons.length+')</a><a onclick="adminLoggedIn=false;adminTab=\'dashboard\';rAdmin(document.getElementById(\'app\'))"><i class="fas fa-sign-out-alt"></i> Logout</a></nav></div><div class="amn">'+(adminTab==='dashboard'?dashHtml:'')+(adminTab==='messages'?msgHtml:'')+(adminTab==='donations'?donHtml:'')+'</div></div>';
 }
 
 function rAdminLogin(app){
-  app.innerHTML=`
-  <div style="padding-top:80px;padding-bottom:40px">
-    <div class="alg">
-      <h2>Admin Login</h2>
-      <p>Enter credentials to access the admin panel</p>
-      <form onsubmit="adminLogin(event)">
-        <div class="fg"><label>Username</label><input type="text" id="aUser" required placeholder="admin"></div>
-        <div class="fg"><label>Password</label><input type="password" id="aPass" required placeholder="password"></div>
-        <button type="submit" class="btn btn-pr btn-bl"><i class="fas fa-sign-in-alt"></i> Login</button>
-        <p style="text-align:center;margin-top:14px;font-size:.78rem;color:var(--g5)">Demo: admin / admin123</p>
-      </form>
-    </div>
-  </div>`;
+  app.innerHTML='<div style="padding-top:80px;padding-bottom:40px"><div class="alg"><h2>Admin Login</h2><p>Enter credentials to access the admin panel</p><form onsubmit="adminLogin(event)"><div class="fg"><label>Username</label><input type="text" id="aUser" required placeholder="admin"></div><div class="fg"><label>Password</label><input type="password" id="aPass" required placeholder="password"></div><button type="submit" class="btn btn-pr btn-bl"><i class="fas fa-sign-in-alt"></i> Login</button><p style="text-align:center;margin-top:14px;font-size:.78rem;color:var(--g5)">Demo: admin / admin123</p></form></div></div>';
 }
 
 function adminLogin(e){
   e.preventDefault();
-  const u=document.getElementById('aUser').value;
-  const p=document.getElementById('aPass').value;
-  if(u==='admin'&&p==='admin123'){
-    adminLoggedIn=true;adminTab='dashboard';
-    rAdmin(document.getElementById('app'));
-    toast('Welcome, Admin!','ok');
-  } else {
-    toast('Invalid credentials. Try admin / admin123');
-  }
+  var u=document.getElementById('aUser').value;
+  var p=document.getElementById('aPass').value;
+  if(u==='admin'&&p==='admin123'){adminLoggedIn=true;adminTab='dashboard';rAdmin(document.getElementById('app'));toast('Welcome, Admin!','ok')}
+  else{toast('Invalid credentials. Try admin / admin123')}
 }
 
 function markMsg(id){
-  let msgs=JSON.parse(localStorage.getItem('ecss_contacts')||'[]');
-  msgs=msgs.map(m=>{if(m.id===id)m.status='read';return m});
+  var msgs=JSON.parse(localStorage.getItem('ecss_contacts')||'[]');
+  msgs=msgs.map(function(m){if(m.id===id)m.status='read';return m});
   localStorage.setItem('ecss_contacts',JSON.stringify(msgs));
   rAdmin(document.getElementById('app'));
 }
 
 function delMsg(id){
-  let msgs=JSON.parse(localStorage.getItem('ecss_contacts')||'[]');
-  msgs=msgs.filter(m=>m.id!==id);
+  var msgs=JSON.parse(localStorage.getItem('ecss_contacts')||'[]');
+  msgs=msgs.filter(function(m){return m.id!==id});
   localStorage.setItem('ecss_contacts',JSON.stringify(msgs));
   rAdmin(document.getElementById('app'));
   toast('Message deleted');
 }
 
 function delDon(id){
-  let dons=JSON.parse(localStorage.getItem('ecss_donations')||'[]');
-  dons=dons.filter(d=>d.id!==id);
+  var dons=JSON.parse(localStorage.getItem('ecss_donations')||'[]');
+  dons=dons.filter(function(d){return d.id!==id});
   localStorage.setItem('ecss_donations',JSON.stringify(dons));
   rAdmin(document.getElementById('app'));
   toast('Donation record deleted');
 }
 
-// ========== INIT ==========
+/* ================================================================
+   INIT
+   ================================================================ */
 handleRoute();
 </script>
 </body>
